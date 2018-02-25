@@ -1,11 +1,11 @@
 /* about cover page****************** */
-.homepage_container {
+.aboutpage_container {
     background-image:url("../images/people/singing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 100vw; */
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.8;
     /* background: rgba(14,25,63,0.28); */
 }
 
@@ -195,7 +195,6 @@
     box-shadow: 10px 10px 5px black;
     margin: 5vh 2vw;
     height: 25vh;
-    /* border: solid white 1px; */
     font-weight: 400;
     font-style: normal;
     font-size: 16.0px;
@@ -208,14 +207,9 @@
 
 .about_card2 {
     margin: 2vh 0vw;
-    /* border: solid white 1px; */
     font-weight: 400;
     font-style: normal;
     font-size: 16.0px;
-
-    /* background-color: #1c1c1c; */
-    /* box-shadow: 10px 10px 5px black; */
-
 }
 
 .author {
@@ -225,7 +219,6 @@
     align-items: flex-end;
     margin-top: 5vh;
     color: #7798c6;
-    /* height: 8vh; */
 }
 
 .testimonal1 {
@@ -262,7 +255,6 @@
  display:flex;
  flex-direction: column;
  justify-content: center;
- /* justify-content: flex-end; */
  font-style: bold;
  position: relative;
  margin-top: 30vh;
@@ -422,4 +414,19 @@
 
 .media_content_box h5 {
     color: #FFF;
+}
+/* staff  fwb ****************** */
+
+.staff {
+    color: #424344;
+    margin-top: 5vh;
+}
+
+.staff_photo{
+    margin: 0;
+    padding: 0;
+}
+.staff_photo img {
+    height: 100%;
+    width: 100%;
 }

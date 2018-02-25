@@ -33,9 +33,13 @@ body {
     border: dashed 2px white
 } */
 
+.container {
+
+}
 .container2{
     margin-top: 5vh;
     margin-bottom: 5vh;
+    border: solid white 2px;
 }
 /* cover page****************** */
 
@@ -234,15 +238,14 @@ bottom: 10vh;
 /* programme description****************** */
 
 .programme_container {
-    height: 100vh;
     background-color: rgba(28,28,28,1.0);
 }
 
 .programme_box {
     box-shadow: 10px 10px 5px black;
     /* background-image:url("../images/top_photos/arrow.png");) */
-
 }
+
 
 .programme_row_content {
     margin-left: 2vw;
