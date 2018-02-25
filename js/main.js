@@ -43,10 +43,9 @@ $('#text_1').on("click", function(event){
     $('#text_1').addClass('about_active')
     $('#text_2').removeClass('about_active')
     $('#text_3').removeClass('about_active')
-    $('.about_photo2').css('backgroundImage','url(images/objects/dress.jpg)');
-    $('.about_text_1').css('display', 'flex')
-    $('.about_text_2').css('display', 'none')
-    $('.about_text_3').css('display', 'none')
+    $('.intro_row_content1').css('display', 'flex')
+    $('.intro_row_content2').css('display', 'none')
+    $('.intro_row_content3').css('display', 'none')
 })
 
  $('#text_2').on("click", function(event){
@@ -54,19 +53,65 @@ $('#text_1').on("click", function(event){
      $('#text_2').addClass('about_active')
      $('#text_1').removeClass('about_active')
      $('#text_3').removeClass('about_active')
-     $('.about_photo2').css('backgroundImage','url(images/objects/recon.jpg)');
-     $('.about_text_2').css('display', 'flex')
-     $('.about_text_1').css('display', 'none')
-     $('.about_text_3').css('display', 'none')
+     $('.intro_row_content2').css('display', 'flex')
+     $('.intro_row_content1').css('display', 'none')
+     $('.intro_row_content3').css('display', 'none')
 })
 
 $('#text_3').on("click", function(event){
     $('#text_3').addClass('about_active')
     $('#text_1').removeClass('about_active')
     $('#text_2').removeClass('about_active')
-    $('.about_photo2').css('backgroundImage','url(images/people/flowers.jpg)');
-    $('.about_text_3').css('display', 'flex')
-    $('.about_text_2').css('display', 'none')
-    $('.about_text_1').css('display', 'none')
+    $('.intro_row_content3').css('display', 'flex')
+    $('.intro_row_content2').css('display', 'none')
+    $('.intro_row_content1').css('display', 'none')
 console.log("fired")
+})
+
+// js for about page testimonials
+$('#testimonial_button_1').on("click", function(event){
+    $('#testimonial_button_1').addClass('about_active2')
+    $('#testimonial_button_2').removeClass('about_active2')
+    $('#testimonial_button_3').removeClass('about_active2')
+    $('#testimonial_button_4').removeClass('about_active2')
+    $('.testimonal1').css('display', 'flex')
+    $('.testimonal2').css('display', 'none')
+    $('.testimonal3').css('display', 'none')
+    $('.testimonal4').css('display', 'none')
+
+})
+
+ $('#testimonial_button_2').on("click", function(event){
+     console.log('fired')
+     $('#testimonial_button_2').addClass('about_active2')
+     $('#testimonial_button_1').removeClass('about_active2')
+     $('#testimonial_button_3').removeClass('about_active2')
+     $('#testimonial_button_4').removeClass('about_active2')
+     $('.testimonal2').css('display', 'flex')
+     $('.testimonal1').css('display', 'none')
+     $('.testimonal3').css('display', 'none')
+     $('.testimonal4').css('display', 'none')
+})
+
+$('#testimonial_button_3').on("click", function(event){
+    $('#testimonial_button_3').addClass('about_active2')
+    $('#testimonial_button_2').removeClass('about_active2')
+    $('#testimonial_button_1').removeClass('about_active2')
+    $('#testimonial_button_4').removeClass('about_active2')
+    $('.testimonal3').css('display', 'flex')
+    $('.testimonal1').css('display', 'none')
+    $('.testimonal2').css('display', 'none')
+    $('.testimonal4').css('display', 'none')
+console.log("fired")
+})
+
+$('#testimonial_button_4').on("click", function(event){
+    $('#testimonial_button_4').addClass('about_active2')
+    $('#testimonial_button_2').removeClass('about_active2')
+    $('#testimonial_button_3').removeClass('about_active2')
+    $('#testimonial_button_1').removeClass('about_active2')
+    $('.testimonal4').css('display', 'flex')
+    $('.testimonal1').css('display', 'none')
+    $('.testimonal3').css('display', 'none')
+    $('.testimonal2').css('display', 'none')
 })
