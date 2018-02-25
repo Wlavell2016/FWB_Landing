@@ -22,11 +22,21 @@ a:hover {
 
 
 body {
- background-color: rgba(28,28,28,1.0)!important;
+    background-color: rgba(28,28,28,1.0)!important;
   /* background-color: green; */
   /* background-color: white; */
 }
 
+/* .section {
+    height: 100vh;
+    width:100vw;
+    border: dashed 2px white
+} */
+
+.container2{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
 /* cover page****************** */
 
 .homepage_container {
@@ -75,6 +85,8 @@ height:40vh;
     align-items: center;
     flex:1 100%;
 }
+
+
 
 /* programme intro****************** */
 
@@ -267,6 +279,20 @@ bottom: 10vh;
     z-index: 0;
 }
 
+.active p::before {
+    content: "";
+    position:absolute;
+    top: 0.7em;
+    margin-left: -10%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: #6282a6;
+    height: 0.2em;
+    z-index: -1;
+    width: 120%;
+}
+
 .programme_topic_row {
     margin-top: 10vh;
 }
@@ -293,6 +319,14 @@ bottom: 10vh;
     background-size: cover;
     background-size: auto;
     background-position: center;
+}
+
+.vision_text {
+    display:none;
+}
+
+.goal_text {
+    display:none
 }
 /* services description****************** */
 
@@ -459,7 +493,6 @@ padding-left: 5rem;
 /* contact_container****************** */
 
 .section_first_page_contact {
-    height: 100vh;
     margin-top: 10vh;
     display:flex;
     /* flex-direction: column; */
@@ -487,7 +520,7 @@ padding-left: 5rem;
 }
 
 .contact_container {
-
+margin-bottom: 2vh;
 }
 
 .contact_image img {
