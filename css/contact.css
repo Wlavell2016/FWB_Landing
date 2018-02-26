@@ -1,0 +1,67 @@
+/* about cover page****************** */
+
+.contact_page_container {
+    background-image:url("../images/top_photos/drumming.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* width: 100vw; */
+    height: 100vh;
+    opacity: 0.9;
+    /* background: rgba(14,25,63,0.28); */
+
+
+
+}
+.cover_contact {
+    /* margin-top: 10vh; */
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* position: fixed;
+    bottom: 0;
+    margin-left: 10vw; */
+}
+
+.cover_contact h3 {
+    font-weight: 900;
+    font-size:  25.0px;
+    color:#FFF;
+    font-style: normal;
+
+}
+
+.cover_contact p {
+    font-weight: 400;
+    font-size:  15.0px;
+    color:#FFF;
+    font-style: normal;
+
+}
+
+.about_text2 {
+    border-left:solid white 5px;
+    padding-left: 5rem;
+    /* position: relative;
+    top: 120px; */
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 700;
+    font-size: 41px;
+}
+
+.main2 {
+display:flex;
+flex-direction: column;
+justify-content: center;
+justify-content: flex-start;
+/* font-style: bold; */
+position: relative;
+height:20vh;
+margin-bottom: 9vh;
+}
+
+.contact_container2 {
+    margin-bottom: 0vh;
+    /* margin-top: 5vh; */
+}
