@@ -9,9 +9,27 @@
     height: 100vh;
     opacity: 0.9;
     /* background: rgba(14,25,63,0.28); */
+    display: flex;
+    flex-direction: column;
+    /* align-items: cent; */
+    justify-content: flex-end;
+}
 
+.contact_box3{
+    border-bottom: 0px;
+    box-shadow: 10px 10px 5px black;
+    /* height: 60vh; */
+    width: 100%;
+    position: relative;
+    border-top: solid  20px transparent;
+    border-left: solid  20px transparent;
+    border-right: solid  20px transparent;
 
-
+    padding: 15px;
+    border-image:url("../images/border2.png");
+    border-image-width: 20px;
+    border-image-slice: 50;
+    background-color: rgb(117, 120, 160);
 }
 .cover_contact {
     /* margin-top: 10vh; */
@@ -32,6 +50,11 @@
 
 }
 
+.outline2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: solid white 2px;
+}
 .cover_contact p {
     font-weight: 400;
     font-size:  15.0px;
