@@ -1,0 +1,30 @@
+.navbackground {
+    background-color: black;
+    width: 100vw;
+    height: 14vh;
+    margin-right: 10vw;
+}
+
+.mapcontainer {
+    margin-top: 15vh;
+    height: 84vh;
+    width:100vw;
+    position:relative;
+    padding: 0 0;
+    /* background-color: white */
+}
+
+.inner2 {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand img {
+    position:relative;
+    /* top:2vh; */
+    /* border: solid white 2px; */
+}

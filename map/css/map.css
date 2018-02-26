@@ -1,0 +1,93 @@
+/* body {
+    padding: 0;
+    margin: 0;
+} */
+
+/* .container{
+  height: 100%;
+  width: 100%;
+} */
+
+ #map {
+    height: 84vh;
+}
+
+.lorem {
+    font-style: italic;
+    color: rgba(133,137,140,1.0);
+}
+
+.partnerimage {
+    height: 20vh;
+    border: solid red 1px;
+    margin: 1vh 1vh;
+}
+
+.sidebar-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+
+}
+.contactbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;
+    border: solid red 1px;
+    justify-content: space-between;
+
+}
+
+.contactinfo1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    padding: 10px;
+    border: red solid 2px;
+}
+
+.contactinfo2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    border: red solid 2px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+    flex: 1;
+    justify-content: flex-start;
+}
+
+
+.legend {
+text-align: left;
+line-height: 18px;
+color: #555;
+background: white;
+padding: 3%;
+border-radius: 25px;
+}
+
+.legend i {
+width: 18px;
+height: 18px;
+float: left;
+margin-right: 8px;
+opacity: 0.7;
+}
+.legend .circle {
+border-radius: 50%;
+width: 10px;
+height: 10px;
+margin-top: 8px;
+}
