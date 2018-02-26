@@ -20,6 +20,7 @@ a:hover {
 }
 
 
+
 /*
  * Base structure
  */
@@ -86,6 +87,8 @@ body {
 .nav-masthead .nav-link:focus {
   border-bottom-color: #fcb414;
   border-top-color: #fcb414;
+  color: rgba(252,180,20,1.0);
+
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -93,9 +96,10 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  /* color: #fff; */
   border-bottom-color: #fcb414;
   border-top-color: #fcb414;
+  color: rgba(252,180,20,1.0);
 
 }
 
