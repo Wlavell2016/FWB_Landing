@@ -19,6 +19,51 @@
     font-size: 41px;
 }
 
+ .card_leftBorder {
+     border-left: solid  20px transparent;
+     padding: 15px;
+     background-color: #1c1c1c;
+     border-image:url("../images/objects/border3.png");
+     border-image-width: 20px;
+     border-image-slice: 25;
+     box-shadow: 10px 10px 5px black;
+     margin: 2vh 0.5vw;
+     /* border: solid white 1px; */
+     font-weight: 400;
+     font-style: normal;
+     font-size: 16.0px;
+     position:relative;
+     color:rgba(133,137,140,1.0);
+
+ }
+
+ .intro_col {
+     display:flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: flex-start;
+ }
+
+.name {
+    color: #6d8ec2;
+}
+
+.onwa_VIP {
+    margin-left: 5vw;
+}
+
+
+.about_ONWA_service_row{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 0;
+    position: relative;
+    bottom: 20vh;
+}
+
+.onwa_intro_container {
+    height: 30vh;
+}
 
 .number_row {
     display:flex;
@@ -142,7 +187,7 @@
 }
 
 .grey_text h1 {
-    color: #424344;
+    color:rgba(133,137,140,1.0)
 }
 .intro_row_content1 {
  display:flex;
@@ -439,5 +484,6 @@
    bottom: 0;
    left: 0;
    right: 0;
+   /* opacity: 0.75; */
    /* margin: auto; */
 }

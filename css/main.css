@@ -36,10 +36,11 @@ body {
 .container {
 
 }
+
 .container2{
     margin-top: 5vh;
     margin-bottom: 5vh;
-    border: solid white 2px;
+    /* border: solid white 2px; */
 }
 /* cover page****************** */
 
@@ -370,6 +371,7 @@ font-size: 41px;
 padding-left: 5rem;
 
 }
+
 .service_container {
     margin-top: 0;
     position: relative;
@@ -386,9 +388,9 @@ padding-left: 5rem;
     align-items: center;
     justify-content: center;
 }
+
 .card1 {
     background-color: #1c1c1c;
-
     box-shadow: 10px 10px 5px black;
     margin: 2vh 0.5vw;
     /* border: solid white 1px; */
