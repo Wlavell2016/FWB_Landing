@@ -3166,9 +3166,9 @@ tbody.collapse.show {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background:transparent;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 2px solid  rgba(252,180,20,1.0)!important;
   border-radius: 0.25rem;
 }
 
@@ -3270,7 +3270,7 @@ tbody.collapse.show {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #white;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;

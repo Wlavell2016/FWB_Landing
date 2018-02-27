@@ -40,6 +40,7 @@ body {
 .container2{
     margin-top: 5vh;
     margin-bottom: 5vh;
+    /* height: 100vh; */
     /* border: solid white 2px; */
 }
 /* cover page****************** */
@@ -65,10 +66,10 @@ body {
 .main {
 display:flex;
 flex-direction: column;
-justify-content: center;
 justify-content: flex-end;
 /* font-style: bold; */
 position: relative;
+top:30vh
 height:40vh;
 }
 

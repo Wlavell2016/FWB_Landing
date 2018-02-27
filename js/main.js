@@ -115,3 +115,19 @@ $('#testimonial_button_4').on("click", function(event){
     $('.testimonal3').css('display', 'none')
     $('.testimonal2').css('display', 'none')
 })
+
+
+// for updating nav bar color
+var viewportHeight = $(window).height();
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > viewportHeight) {
+          $(".navbar").addClass('nav3')
+	  }
+	  else{
+          $(".navbar").removeClass("nav3");
+
+	  }
+  })
+})
