@@ -20,6 +20,9 @@ a:hover {
   color: #fff;
 }
 
+img {
+     transition:all 0.3s ease;
+}
 
 body {
     background-color: rgba(28,28,28,1.0)!important;

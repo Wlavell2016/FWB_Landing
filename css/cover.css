@@ -19,14 +19,27 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+a .navbar-brand img {
+    transition: 0.9s all;
+}
+
+.body {
+     transition:all 0.3s ease;
+}
+
+img {
+    transition: 0.9s all;
+}
+
 .navbar-brand {
     padding-top: 2vh;
 }
+
 .nav2 {
 font-weight: 700;
 color: #fff!important;
 text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-transition: 0.9s all;
+transition: 0.9s all ease;
 height: 20vh;
 
 }

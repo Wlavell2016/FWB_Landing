@@ -124,9 +124,13 @@ $(document).ready(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > viewportHeight) {
           $(".navbar").addClass('nav3')
+           $('a.navbar-brand img').attr('src','images/logo/Logo_no_text.png').css('width', '71px').css('height','81px')
 	  }
 	  else{
           $(".navbar").removeClass("nav3");
+          $('a.navbar-brand img').attr('src','images/logo/Logo.png').css('width', '111px').css('height','121px')
+
+          // $('a.navbar-brand img').attr('src','images/logo/Logo.png').css('width', '121','height','121')
 
 	  }
   })
