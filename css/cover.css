@@ -27,7 +27,7 @@ font-weight: 700;
 color: #fff!important;
 text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 transition: 0.9s all;
-height: 11vh;
+height: 20vh;
 
 }
 
@@ -35,6 +35,12 @@ height: 11vh;
 background-color: #373944;
 transition: 0.9s all;
 height: 11vh;
+}
+
+.nav4{
+    background-color: #373944;
+    transition: 0.9s all;
+    height: 11vh;
 }
 
 .navbar-light .navbar-nav .nav-link  {
