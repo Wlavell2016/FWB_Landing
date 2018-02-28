@@ -2983,6 +2983,7 @@ fieldset:disabled a.btn {
   background-color: transparent;
   background-image: none;
   border-color: #f8f9fa;
+  height:100%;
 }
 
 .btn-outline-light:hover {
