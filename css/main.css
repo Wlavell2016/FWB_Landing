@@ -225,7 +225,7 @@ body {
     background-image:url("../images/people/childrenpowwow1.jpg");
     height:60vw;
     background-repeat: no-repeat;
-    background-size: center center;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -234,7 +234,7 @@ body {
         background-image:url("../images/people/childrenpowwow1.jpg");
         height:60vh;
         background-repeat: no-repeat;
-        background-size: center center;
+        background-position: center center;
         background-size: cover;
     }
 }
@@ -263,12 +263,12 @@ bottom: 10vh;
 
 }
 
-@media (min-width: 992px) {
+@media(min-width: 992px) {
     .intro_images {
         display:block;
         margin-left: 4vw;
         margin-right: 4vw;
-        height: 10vh;
+        /* height: 10vh; */
         position: absolute;
         bottom: 5vh;
         /* display: flex; */
@@ -339,7 +339,7 @@ bottom: 10vh;
 
 @media (min-width: 576px) {
     .programme_photo {
-        background-image:url("../images/top_photos/stones.jpg");)
+        background-image:url("../images/places/0003.jpg");)
         /* height: 75%; */
         background-repeat: no-repeat;
         background-size: cover;
@@ -675,6 +675,7 @@ bottom: 10vh;
 }
 
 
+
 @media (min-width: 992px) {
     .content_box {
         box-shadow: 10px 10px 5px black;
@@ -705,9 +706,43 @@ bottom: 10vh;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    display:none;
 }
 
-/* implementation description****************** */
+@media (min-width: 576px) {
+    .implementing_photo {
+        background-image:url("../images/top_photos/pouch.jpg");)
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display:flex;
+    }
+}
+@media(min-width: 992px) {
+
+}
+
+/* partners_section ****************** */
+
+.partners_section .content_box {
+    box-shadow: 10px 10px 5px black;
+    width: 100%;
+    position: relative;
+    border: solid  20px transparent;
+    padding: 15px;
+    border-image:url("../images/border.png");
+    border-image-width: 20px;
+    border-image-slice: 50;
+    /* height: 75%; */
+    opacity: 0.7;
+    background-image:url("../images/places/stones.jpg");)
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .partners_section {
     height: 100vh;
     margin-bottom: 10vh;
@@ -810,5 +845,13 @@ width: 7em;
 }
 
 .contact_row2 {
-margin-top: 2vh
+    margin-top: 2vh;
+    text-align: center;
+}
+
+@media (min-width:576px) {
+    .contact_row2 {
+        margin-top: 2vh;
+        text-align: center;
+    }
 }
