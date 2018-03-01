@@ -140,8 +140,6 @@ body {
 
 
 
-
-
 .topic_row {
     margin-top: 10vh;
     height: 10vh;
@@ -174,8 +172,6 @@ body {
     color: #FFF;
 
 }
-
-
 
 
 .topic_row p:hover::before {
@@ -333,12 +329,34 @@ bottom: 10vh;
 }
 
 .programme_photo {
-    background-image:url("../images/top_photos/sweetgrass.jpg");)
+     background-image:url("../images/top_photos/beaded_circle.jpg");)
     /* height: 75%; */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     display:none;
 }
+
+@media (min-width: 576px) {
+    .programme_photo {
+        background-image:url("../images/top_photos/stones.jpg");)
+        /* height: 75%; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display:flex;
+    }
+    .mobile_section_services .programme_photo {
+            background-image:url("../images/top_photos/sweetgrass.jpg");)
+            /* height: 75%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            display:none;
+        }
+
+}
+
 
 @media (min-width: 992px) {
     .programme_photo {
@@ -432,19 +450,41 @@ bottom: 10vh;
     display:none
 }
 /* services description****************** */
+.mobile_section_services {
+    display:flex;
+}
+
+@media (min-width: 992px) {
+    .mobile_section_services {
+        display:none;
+    }
+}
+
+.services_section_desktop {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .services_section_desktop {
+        display: block;
+    }
+}
+
+.mobile_section_services {
+
+}
 
 .services_section {
     height: 140vh;
     width: 100vw;
 }
 
-
 .services_image {
     background-image:url("../images/top_photos/borealis.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 120vh;
+    /* height: 140vh; */
     overflow: hidden;
     display:flex;
     flex-direction: column;
@@ -504,17 +544,14 @@ bottom: 10vh;
 .service_container {
     margin-top: 0;
     position: relative;
-    bottom: 20vh;
-    background-image:url("../images/top_photos/borealis.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    /* bottom: 20vh; */
     /* height: 85vh; */
     overflow: hidden;
     display:flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    /* border:white solid 2px; */
 }
 
 
@@ -539,10 +576,16 @@ bottom: 10vh;
 
 
 .service_row{
-    margin-left: 5vh;
-    margin-right: 5vh;
+    /* margin-left: 5vh;
+    margin-right: 5vh; */
 }
 
+@media(min-width: 992px){
+    .service_row{
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+}
 .service_col{
     display:flex;
     flex-direction: column;
@@ -551,16 +594,30 @@ bottom: 10vh;
 }
 
 .card1 {
-    background-color: #1c1c1c;
-    box-shadow: 10px 10px 5px black;
-    margin: 2vh 0.5vw;
+    /* background-color: #1c1c1c;
+    box-shadow: 10px 10px 5px black; */
+    /* margin: 2vh 0.5vw; */
     /* border: solid white 1px; */
     font-weight: 400;
     font-style: normal;
-    font-size: 16.0px;
+    /* font-size: 16.0px; */
+    /* display:none; */
 
 }
 
+
+@media(min-width: 992px) {
+    .card1 {
+        background-color: #1c1c1c;
+        box-shadow: 10px 10px 5px black;
+        margin: 2vh 0.5vw;
+        /* border: solid white 1px; */
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16.0px;
+        display:flex;
+    }
+}
 
 .service_image2 {
     margin: 1vh 0.5vw;
@@ -570,8 +627,20 @@ bottom: 10vh;
     background-position: center center;
     height: 5vh;
     width: 80%;
-    /* overflow: hidden; */
+    display:none;
+}
 
+@media(min-width: 992px) {
+    .service_image2 {
+        margin: 1vh 0.5vw;
+        background-image:url("../images/objects/test.png");
+        background-repeat: repeat-x;
+        /* background-size: cover; */
+        background-position: center center;
+        height: 5vh;
+        width: 80%;
+        display:flex;
+    }
 }
 
 /* implementation description****************** */
@@ -585,7 +654,26 @@ bottom: 10vh;
     border-image:url("../images/border.png");
     border-image-width: 20px;
     border-image-slice: 50;
+    /* height: 75%; */
+    opacity: 0.7;
 }
+
+.mobile_section_services .content_box {
+        box-shadow: 10px 10px 5px black;
+        width: 100%;
+        position: relative;
+        border: solid  20px transparent;
+        padding: 15px;
+        border-image:url("../images/border.png");
+        border-image-width: 20px;
+        border-image-slice: 50;
+        background-image:url("../images/top_photos/borealis.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        opacity: 0.8;
+}
+
 
 @media (min-width: 992px) {
     .content_box {
