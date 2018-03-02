@@ -46,6 +46,8 @@ $('#text_1').on("click", function(event){
     $('.intro_row_content1').css('display', 'flex')
     $('.intro_row_content2').css('display', 'none')
     $('.intro_row_content3').css('display', 'none')
+    $('.introbox').css('background-image','url(images/objects/recon.jpg)')
+
 })
 
  $('#text_2').on("click", function(event){
@@ -56,6 +58,7 @@ $('#text_1').on("click", function(event){
      $('.intro_row_content2').css('display', 'flex')
      $('.intro_row_content1').css('display', 'none')
      $('.intro_row_content3').css('display', 'none')
+     $('.introbox').css('background-image','url(images/objects/dress.jpg)')
 })
 
 $('#text_3').on("click", function(event){
@@ -65,6 +68,7 @@ $('#text_3').on("click", function(event){
     $('.intro_row_content3').css('display', 'flex')
     $('.intro_row_content2').css('display', 'none')
     $('.intro_row_content1').css('display', 'none')
+    $('.introbox').css('background-image','url(images/objects/flowers.jpg)')
 console.log("fired")
 })
 
