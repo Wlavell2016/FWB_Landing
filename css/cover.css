@@ -19,8 +19,40 @@ a:hover {
   border: .05rem solid #fff;
 }
 
-a .navbar-brand img {
+ .navbar-brand img {
     transition: 0.9s all;
+    height: 51px;
+    width:61px;
+}
+
+@media(min-width:576px){
+    .navbar-brand img {
+        transition: 0.9s all;
+        height: 91px;
+        width:101px;
+    }
+    .nav3 {
+    background-color: #373944;
+    transition: 0.9s all;
+    height: 11vh;
+    }
+
+
+}
+
+@media(min-width:992px){
+    .navbar-brand img {
+        transition: 0.9s all;
+        height: 91px;
+        width:101px;
+    }
+
+    .nav3 {
+    background-color: #373944;
+    transition: 0.9s all;
+    height: 11vh;
+    }
+
 }
 
 .body {
@@ -47,7 +79,7 @@ height: 20vh;
 .nav3 {
 background-color: #373944;
 transition: 0.9s all;
-height: 11vh;
+height: 13vh;
 }
 
 .nav4{
@@ -127,6 +159,7 @@ body {
     /* height: 10vh; */
     /* border: solid white 2px; */
 }
+
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: #fcb414;
@@ -151,14 +184,19 @@ body {
 
 }
 
+
+
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
   }
   .nav-masthead {
-    float: right;
+    /* margin-top:2vh; */
+    /* float: right; */
+
   }
 }
+
 
 
 /*

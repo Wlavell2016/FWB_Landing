@@ -35,6 +35,9 @@ body {
 
 /* cover page****************** */
 
+#navbarNavDropdown {
+    /* background-color: white */
+}
 .homepage_container {
         background-image:url("../images/dancing2.jpg");
         background-repeat: no-repeat;
@@ -832,12 +835,19 @@ margin-bottom: 2vh;
 width: 7em;
 
 }
+
 .contact_flex {
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-
+@media(min-width:576px){
+    .contact_flex {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 .contact_row {
     align-items: center;
     position: absolute;
