@@ -89,9 +89,9 @@ $('#testimonial_button_1').on("click", function(event){
  $('#testimonial_button_2').on("click", function(event){
      console.log('fired')
      $('#testimonial_button_2').addClass('about_actives')
-     $('#testimonial_button_1').removeClass('about_actives')
-     $('#testimonial_button_3').removeClass('about_actives')
-     $('#testimonial_button_4').removeClass('about_actives')
+     $('#testimonial_button_1').removeClass('about_active')
+     $('#testimonial_button_3').removeClass('about_active')
+     $('#testimonial_button_4').removeClass('about_active')
      $('.testimonal2').css('display', 'flex')
      $('.testimonal1').css('display', 'none')
      $('.testimonal3').css('display', 'none')
