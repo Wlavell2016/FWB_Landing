@@ -36,8 +36,17 @@ a:hover {
     transition: 0.9s all;
     height: 11vh;
     }
+}
 
 
+.navbar-toggler {
+margin-right: 1vw;
+}
+
+@media(min-width:576px){
+    .navbar-toggler {
+
+    }
 }
 
 @media(min-width:992px){

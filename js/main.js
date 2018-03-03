@@ -6,6 +6,7 @@ $('#purpose').on("click", function(event){
     $('#image3').css('backgroundImage','url(images/top_photos/smilingBaby.jpg)');
     $('#image2').css('backgroundImage','url(images/top_photos/drumming.jpg)');
     $('#image1').css('backgroundImage','url(images/actions/dancing.jpg)');
+    $('#image1').css('backgroundImage','url(images/actions/dancing.jpg)');
     $('.purpose_text').css('display', 'block')
     $('.vision_text').css('display', 'none')
     $('.goal_text').css('display', 'none')
@@ -74,10 +75,10 @@ console.log("fired")
 
 // js for about page testimonials
 $('#testimonial_button_1').on("click", function(event){
-    $('#testimonial_button_1').addClass('about_active2')
-    $('#testimonial_button_2').removeClass('about_active2')
-    $('#testimonial_button_3').removeClass('about_active2')
-    $('#testimonial_button_4').removeClass('about_active2')
+    $('#testimonial_button_1').addClass('about_active')
+    $('#testimonial_button_2').removeClass('about_active')
+    $('#testimonial_button_3').removeClass('about_active')
+    $('#testimonial_button_4').removeClass('about_active')
     $('.testimonal1').css('display', 'flex')
     $('.testimonal2').css('display', 'none')
     $('.testimonal3').css('display', 'none')
@@ -87,10 +88,10 @@ $('#testimonial_button_1').on("click", function(event){
 
  $('#testimonial_button_2').on("click", function(event){
      console.log('fired')
-     $('#testimonial_button_2').addClass('about_active2')
-     $('#testimonial_button_1').removeClass('about_active2')
-     $('#testimonial_button_3').removeClass('about_active2')
-     $('#testimonial_button_4').removeClass('about_active2')
+     $('#testimonial_button_2').addClass('about_actives')
+     $('#testimonial_button_1').removeClass('about_actives')
+     $('#testimonial_button_3').removeClass('about_actives')
+     $('#testimonial_button_4').removeClass('about_actives')
      $('.testimonal2').css('display', 'flex')
      $('.testimonal1').css('display', 'none')
      $('.testimonal3').css('display', 'none')
@@ -98,10 +99,10 @@ $('#testimonial_button_1').on("click", function(event){
 })
 
 $('#testimonial_button_3').on("click", function(event){
-    $('#testimonial_button_3').addClass('about_active2')
-    $('#testimonial_button_2').removeClass('about_active2')
-    $('#testimonial_button_1').removeClass('about_active2')
-    $('#testimonial_button_4').removeClass('about_active2')
+    $('#testimonial_button_3').addClass('about_actives')
+    $('#testimonial_button_2').removeClass('about_actives')
+    $('#testimonial_button_1').removeClass('about_actives')
+    $('#testimonial_button_4').removeClass('about_actives')
     $('.testimonal3').css('display', 'flex')
     $('.testimonal1').css('display', 'none')
     $('.testimonal2').css('display', 'none')
@@ -119,7 +120,10 @@ $('#testimonial_button_4').on("click", function(event){
     $('.testimonal3').css('display', 'none')
     $('.testimonal2').css('display', 'none')
 })
-
+$('.navbar-toggler-icon').on("click", function(event){
+    console.log('fired')
+    $('#navbarNavDropdown').css('background-color','#373944');
+});
 
 // for updating nav bar color
 var viewportHeight = $(window).height();
@@ -130,15 +134,12 @@ $(document).ready(function(){
           $(".navbar").addClass('nav3')
            // $('a.navbar-brand img').attr('src','images/logo/Logo_no_text.png').css('width','6.93vw').css('height','10.625vh')
            // $('a.navbar-brand img').attr('src','images/logo/Logo_no_text.png').css('width', '91px').css('height','101px')
-
 	  }
 	  else{
           $(".navbar").removeClass("nav3");
           // $('a.navbar-brand img').attr('src','images/logo/Logo.png').css('width', '91px').css('height','101px')
           // $('a.navbar-brand img').attr('src','images/logo/Logo.png').css('width', '111px').css('height','121px')
-
           // $('a.navbar-brand img').attr('src','images/logo/Logo.png').css('width', '121','height','121')
-
 	  }
   })
 })

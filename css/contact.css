@@ -4,21 +4,34 @@
     background-image:url("../images/top_photos/drumming.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    /* width: 100vw; */
-    height: 140vh;
+    background-position: center left;
+    height: 100vh;
     opacity: 0.9;
-    /* background: rgba(14,25,63,0.28); */
     display: flex;
     flex-direction: column;
-    /* align-items: cent; */
     justify-content: space-between;
+}
+
+.contact_page_container p {
+    font-size: xx-large;
+}
+
+.contact_container1 {
+    margin-top: 5vh;
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact_container2 {
+    margin-bottom: 0vh;
 }
 
 .contact_box3{
     border-bottom: 0px;
     box-shadow: 10px 10px 5px black;
-    /* height: 60vh; */
     width: 100%;
     position: relative;
     border-top: solid  20px transparent;
@@ -30,21 +43,64 @@
     border-image-slice: 50;
     background-color: rgb(117, 120, 160);
 }
+
+/* ***************** */
 .cover_contact {
-    /* margin-top: 10vh; */
     display:flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-;
+    text-align: center;
+}
+
+.row_flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.contact_flex a, {
+    cursor:pointer;
+    color: rgba(252,180,20,1.0)!important;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.contact_flex a:hover {
+    color: rgba(252,180,20,1.0)!important;
+}
+
+.text_contact {
+    display:none;
 }
 
 .cover_contact h3 {
     font-weight: 900;
-    font-size:  1.0em;
-    color:#FFF;
     font-style: normal;
+    font-size:  medium;
+    color:#FFF;
+}
 
+.cover_contact p {
+    font-weight: 400;
+    color:#FFF;
+    font-size: xx-small;
+}
+
+.cover_contact .nav-link{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.top1 {
+    display:block;
+}
+
+.top2 {
+    display:none
 }
 
 .outline2{
@@ -52,19 +108,10 @@
     padding-bottom: 0;
     border: solid white 2px;
 }
-.cover_contact p {
-    font-weight: 400;
-    font-size:  0.7375em;
-    color:#FFF;
-    font-style: normal;
-
-}
 
 .about_text2 {
     border-left:solid white 5px;
     padding-left: 5rem;
-    /* position: relative;
-    top: 120px; */
     font-family: 'Roboto',Helvetica,Arial,serif;
     font-weight: 700;
     font-size: 41px;
@@ -72,16 +119,96 @@
 
 .main2 {
 display:flex;
-flex-direction: column;
-justify-content: center;
-justify-content: center;
-/* font-style: bold; */
 position: relative;
 height:20vh;
 margin-bottom: 9vh;
 }
 
-.contact_container2 {
-    margin-bottom: 0vh;
-    /* margin-top: 5vh; */
+@media(min-width:576px){
+    .cover_contact {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .text_contact {
+        display:block;
+    }
+    .contact_page_container {
+        background-image:url("../images/top_photos/drumming.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        /* width: 100vw; */
+        height: 75vh;
+        opacity: 0.9;
+        /* background: rgba(14,25,63,0.28); */
+        display: flex;
+        flex-direction: column;
+        /* align-items: cent; */
+        justify-content: space-between;
+    }
+    .cover_contact h3 {
+        font-weight: 900;
+        font-style: normal;
+        font-size:  large;
+        color:#FFF;
+    }
+    .cover_contact p {
+        font-weight: 400;
+        color:#FFF;
+        font-style: normal;
+        font-size: medium;
+    }
+    .top1 {
+        display:block;
+    }
+    .top2 {
+        display:none
+    }
+}
+
+@media(min-width:992px){
+    .cover_contact {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .contact_page_container p{
+        font-size: unset;
+    }
+    .contact_page_container {
+        background-image:url("../images/top_photos/drumming.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        /* width: 100vw; */
+        height: 140vh;
+        opacity: 0.9;
+        /* background: rgba(14,25,63,0.28); */
+        display: flex;
+        flex-direction: column;
+        /* align-items: cent; */
+        justify-content: space-between;
+    }
+    .cover_contact h3 {
+        font-weight: 900;
+        font-style: normal;
+        font-size:  large;
+        color:#FFF;
+    }
+    .cover_contact p {
+        font-weight: 400;
+        color:#FFF;
+        font-style: normal;
+        font-size: medium;
+    }
+    .top1 {
+        display:none;
+    }
+
+    .top2 {
+        display:block
+    }
 }
