@@ -5,7 +5,11 @@ var map = L.map('map', {
         duration: 0.5,
         zoomControl: false
         });
-map.setView([49.8062891, -84.1434475], 5.45);
+// map.setView([48.533671, -80.464389], 5.45);
+// map.setView([47.797477, -81.525733], 5.45);
+map.setView([47.992676, -84.775135], 5.45);
+
+
 
  // L.tileLayer(' https://api.mapbox.com/styles/v1/lavellgis/cjdk7huor5ia52sobkizesrgf/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGF2ZWxsZ2lzIiwiYSI6ImNpeDZ3YnFvbzAxNHgyeXF5NDVob3VvanEifQ.2_vKfp2QtZlz70-C1Kkphw',{
  L.tileLayer('https://api.mapbox.com/styles/v1/lavellgis/cjdk7sipm3cez2rmk5v5tipfx/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGF2ZWxsZ2lzIiwiYSI6ImNpeDZ3YnFvbzAxNHgyeXF5NDVob3VvanEifQ.2_vKfp2QtZlz70-C1Kkphw',{
@@ -207,7 +211,7 @@ color.forEach(function(item){
     	})
     	return div;
     }
-    // legend.addTo(map);
+    legend.addTo(map);
 
     //     marker = new L.Marker(new L.latLng(loc), {title: title} );//se property searched
     // marker.bindPopup('title: '+ title );
