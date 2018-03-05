@@ -207,7 +207,7 @@ color.forEach(function(item){
     	})
     	return div;
     }
-    legend.addTo(map);
+    // legend.addTo(map);
 
     //     marker = new L.Marker(new L.latLng(loc), {title: title} );//se property searched
     // marker.bindPopup('title: '+ title );
