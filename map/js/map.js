@@ -247,70 +247,75 @@ var fwblayer = L.geoJSON(data3, {
     pointToLayer: function(feature, latlng) {
 
         if (feature.properties.PartnerID === 1) {
-            // var circle = L.marker(latlng, {icon: greenIcon});
-
+            var image2 = 'images/icons/union.png'
             var circle = L.circleMarker(latlng,  union);
             Union.addLayer(circle).addTo(map);
+
         } else if (feature.properties.PartnerID === 2) {
+            var image2 = 'images/icons/AIAI.png'
             var circle = L.circleMarker(latlng,  allied);
             Allied.addLayer(circle).addTo(map);
 
         } else if (feature.properties.PartnerID === 3) {
             var circle = L.circleMarker(latlng, rama);
             Rama.addLayer(circle).addTo(map);
+            var image2 = 'images/icons/rama.png'
+
             // feature.layer = Rama;
 
         } else if (feature.properties.PartnerID === 4) {
             var circle = L.circleMarker(latlng, treaty3);
             Treaty3.addLayer(circle).addTo(map);
-            // feature.layer = Treaty3;
+            var image2 = 'images/icons/3.jpg'
+
         } else if (feature.properties.PartnerID === 5) {
             var circle = L.circleMarker(latlng, independant);
             Independent.addLayer(circle).addTo(map);
-            // feature.layer = Independent;
+            // var image2 = 'images/icons/rama.png'
 
         } else if (feature.properties.PartnerID === 6) {
             var circle = L.circleMarker(latlng, metis);
             Metis.addLayer(circle).addTo(map);
-            // feature.layer = Metis;
+            var image2 = 'images/icons/metis.png'
 
         } else if (feature.properties.PartnerID === 7) {
             var circle = L.circleMarker(latlng, sauga);
             Sauga.addLayer(circle).addTo(map);
-            // feature.layer = Sauga;
+            var image2 = 'images/icons/newcredit.png'
 
         } else if (feature.properties.PartnerID === 8) {
             var circle = L.circleMarker(latlng, mohawk);
             Mohawk.addLayer(circle).addTo(map);
-            // feature.layer = Mohawk;
+            var image2 = 'images/icons/mohawk.jpg'
 
         } else if (feature.properties.PartnerID === 9) {
             var circle = L.circleMarker(latlng, aski);
             Aski.addLayer(circle).addTo(map);
-            // feature.layer = Aski;
+            var image2 = 'images/icons/Aski.jpg'
 
         } else if (feature.properties.PartnerID === 10) {
             var circle = L.circleMarker(latlng, friendship);
             Friendship.addLayer(circle).addTo(map);
-            // feature.layer = Friendship;
+            var image2 = 'images/icons/OFIFC.png'
 
         } else if (feature.properties.PartnerID === 11) {
             var circle = L.circleMarker(latlng, onwa);
             Onwa.addLayer(circle).addTo(map);
-            // feature.layer = Onwa;
+            var image2 = 'images/icons/ONWA.png'
 
         } else if (feature.properties.PartnerID === 12) {
             var circle = L.circleMarker(latlng, inuit);
             Inuit.addLayer(circle).addTo(map);
-            // feature.layer = Inuit;
+            var image2 = 'images/icons/inuit.png'
 
         } else if (feature.properties.PartnerID === 13) {
             var circle = L.circleMarker(latlng, six);
             Six.addLayer(circle).addTo(map);
-            // feature.layer = Six;
+            var image2 = 'images/icons/6nations.png'
 
         } else if (feature.properties.PartnerID === 14) {
             var circle = L.circleMarker(latlng, tung_inuit);
+            var image2 = 'images/icons/tung_inuit.jpg'
             Tung_inuit.addLayer(circle).addTo(map);
 
         } else {
@@ -319,7 +324,7 @@ var fwblayer = L.geoJSON(data3, {
             circle.on('click', function() {
                 // console.log(marker.title)
                 map.flyTo(latlng, 10)
-                // $('#data .sidebar-header').text(feature.properties.Partner)
+                $('#data img').attr('src',image2);
                 $('#data .website').text(feature.properties.Website)
                 $('#data .email').text(feature.properties.Email)
                 $('#data .contact').text(feature.properties.Contact)
