@@ -34,118 +34,155 @@ var checkclick = false;
 //******************************************************************************
 /* styles for the markers*/
 var union = {
-    name: "Union of Ontario Indians",
-    fillColor: 'rgb(136, 14, 79)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(136, 14, 79)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: 'Union of Ontario Indians'
 }
 
-
 var allied = {
-    name: "Association of Iroquois and Allied Indians",
-    fillColor: 'rgb(230, 81, 0)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(230, 81, 0)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: 'Association  of Iroquois and Allied Indians'
 }
 
 var rama = {
-    name: "Chippewas of Rama First Nation",
-    fillColor: 'rgb(129, 119, 23)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(129, 119, 23)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: 'Chippewas of Rama First Nation'
 }
 
 var treaty3 = {
-    name: "Grand Council Treaty #3",
-    fillColor: 'rgb(85, 139, 47)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(85, 139, 47)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: 'Grand Council Treaty #3'
 }
 
 var independant = {
-    name: "Independent First Nations",
-    fillColor: 'rgb(1, 87, 155)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(1, 87, 155)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: 'Independent First Nations'
 }
 
 var metis = {
-    name: "Metis Nation of Ontario",
-    fillColor: 'rgb(26, 35, 126)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(26, 35, 126)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Metis Nation of Ontario"
 }
 
 var sauga = {
-    name: "Mississaugas of the New Credit First Nation",
-    fillColor: 'rgb(194, 24, 21)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(194, 24, 21)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Mississaugas of the New Credit First Nation"
 }
 
 var mohawk = {
-    name: " Mohawk Council of Akwesasne",
-    fillColor: 'rgb(255, 234, 0)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(255, 234, 0)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Mohawk Council of Akwesasne"
 }
 
 var aski = {
-    name: "Nishnawbe Aski Nation",
-    fillColor: 'rgb(175, 180, 43)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(175, 180, 43)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Nishnawbe Aski Nation"
 }
 
 var friendship = {
-    name: "Ontario Federation of Indigenous Friendship Centres",
-    fillColor: 'rgb(15, 157, 88)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(15, 157, 88)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Ontario Federation of Indigenous Friendship Centres"
 }
 
 var onwa = {
-    name: " Ontario Native Women's Association",
-    fillColor: 'rgb(2, 136, 209)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(2, 136, 209)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Ontario Native Women's Association"
 }
 
-
 var inuit = {
-    name: "Ottawa Inuit Children's Centre",
-    fillColor: 'rgb(57, 73, 171)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(57, 73, 171)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Ottawa Inuit Children's Centre"
 }
 
 var six = {
-    name: "Six Nations of the Grand River",
-    fillColor: 'rgb(85, 139, 47)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(85, 139, 47)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Six Nations of the Grand River"
 }
 
 var tung_inuit = {
-    name: "Tungasuvvingat Inuit",
-    fillColor: 'rgb(189, 189, 189)',
-    color: '#e8eef2',
-    fillOpacity: 0.9,
-    radius: 5
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'rgb(189, 189, 189)',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Tungasuvvingat Inuit"
 }
+
+var other = {
+    iconSize:[16,16],
+    iconShape:'circle-dot',
+    backgroundColor:'#45e8a1',
+    borderColor: '#BEBEBE',
+    borderWidth: '1.5',
+    borderStyle: 'solid',
+    name: "Tungasuvvingat Inuit"
+}
+
 
 
 //******************************************************************************
@@ -166,32 +203,6 @@ var Six = L.layerGroup().addTo(map);
 var Tung_inuit = L.layerGroup().addTo(map);
 
 
-
-//******************************************************************************
-// function onEachFeature(feature, layer) {
-//     // does this feature have a property named popupContent?
-//     if (feature.properties.partnerID === 1) {
-//         feature.properties.color = '#4286f4'
-//         console.log('test')
-//     }else {
-//         feature.properties.color = '#4286f4'
-//         layer.bindPopup(feature.properties.Name);
-//     }
-// }
-//
-// var fwblayer = L.geoJSON(data2, {
-//     pointToLayer: function (feature, latlng) {
-//         return L.circleMarker(latlng);
-//     },
-//     onEachFeature: onEachFeature
-//     style: function(feature) {
-//         return {color: feature.properties.color };
-//     },
-// });
-//
-// map.addLayer(fwblayer);
-
-
 // make array to story color values
 var color = [union, allied, rama, treaty3, independant, metis, sauga, mohawk ,aski ,friendship, onwa, inuit, six, tung_inuit]
 
@@ -201,21 +212,17 @@ var legend = L.control({position: 'topright'});
 
 legend.onAdd = function (map) {
     	var div = L.DomUtil.create('div', 'info legend');
-
     	// loop through the status values and generate a label with a coloured square for each value
 color.forEach(function(item){
     console.log(item.color)
     		div.innerHTML +=
     			// <i class="circle" style="background:" +  + item.color + ></i>  + (item.radius ? item.radius + '<br>' : '+');
-                `<i class="circle" style="background:${item.fillColor}"></i> ${item.name} <br>`
+                `<i class="circle" style="background:${item.backgroundColor}"></i> ${item.name} <br>`
     	})
     	return div;
     }
     legend.addTo(map);
 
-    //     marker = new L.Marker(new L.latLng(loc), {title: title} );//se property searched
-    // marker.bindPopup('title: '+ title );
-    // markersLayer.addLayer(circle);
 
  var communities = {
    'Union of Ontario Indians': Union,
@@ -238,98 +245,110 @@ color.forEach(function(item){
 
 L.control.layers(communities).addTo(map);
 
+images = {
+    '1':'images/icons/union.png',
+    '2': 'images/icons/AIAI.png',
+//     3: 'images/icons/rama.png',
+//     4: 'images/icons/3.jpg',
+//     5:'images/icons/rama.png',
+//     6: 'images/icons/metis.png',
+//     7:'images/icons/newcredit.png',
+//     8:'images/icons/mohawk.jpg',
+//     9: 'images/icons/Aski.jpg',
+//     10:'images/icons/OFIFC.png',
+//     11: 'images/icons/ONWA.png',
+//     12: 'images/icons/inuit.png',
+//     13:'images/icons/6nations.png',
+//     14: 'images/icons/tung_inuit.jpg'
+}
 // readData(data2);
 var sidebar = L.control.sidebar('sidebar').addTo(map);
 
  // ***************************************************************************//
 // working loading of data
+
 var fwblayer = L.geoJSON(data3, {
     pointToLayer: function(feature, latlng) {
-
         if (feature.properties.PartnerID === 1) {
             var image2 = 'images/icons/union.png'
-            // var marker = new L.Marker.SVGMarker(latlng)
-            var circle =  new L.Marker.SVGMarker(latlng, { iconOptions: { color: union.color, circleFillColor: union.fillColor }})
-            // Union.addLayer(circle).addTo(map);
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(union),draggable: true}).addTo(map)
+            Union.addLayer(circle).addTo(map);
 
         } else if (feature.properties.PartnerID === 2) {
             var image2 = 'images/icons/AIAI.png'
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: allied.color, circleFillColor: allied.fillColor }})
-            // Allied.addLayer(circle).addTo(map);
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(allied),draggable: true}).addTo(map)
+            Allied.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 3) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: rama.color, circleFillColor: rama.fillColor }})
-            // Rama.addLayer(circle).addTo(map);
             var image2 = 'images/icons/rama.png'
-
-            // feature.layer = Rama;
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(rama),draggable: true}).addTo(map)
+            Rama.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 4) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: treaty3.color, circleFillColor: treaty3.fillColor }})
-            // Treaty3.addLayer(circle).addTo(map);
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(treaty3),draggable: true}).addTo(map)
+            Treaty3.addLayer(circle).addTo(map);
             var image2 = 'images/icons/3.jpg'
-
+        //
         } else if (feature.properties.PartnerID === 5) {
-            var circle = L.circleMarker(latlng, independant);
-            // Independent.addLayer(circle).addTo(map);
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: independant.color, circleFillColor: independant.fillColor }})
-
-            // var image2 = 'images/icons/rama.png'
-
+            var image2 = 'images/icons/rama.png'
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(independant),draggable: true}).addTo(map)
+            Independent.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 6) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: metis.color, circleFillColor: metis.fillColor }})
-            // Metis.addLayer(circle).addTo(map);
             var image2 = 'images/icons/metis.png'
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(metis),draggable: true}).addTo(map)
+            Metis.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 7) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: sauga.color, circleFillColor: sauga.fillColor }})
-            // Sauga.addLayer(circle).addTo(map);
             var image2 = 'images/icons/newcredit.png'
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(sauga),draggable: true}).addTo(map)
+            Sauga.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 8) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: mohawk.color, circleFillColor: mohawk.fillColor }})
-            // Mohawk.addLayer(circle).addTo(map);
             var image2 = 'images/icons/mohawk.jpg'
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(mohawk),draggable: true}).addTo(map)
+            Mohawk.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 9) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color:aski.color, circleFillColor:aski.fillColor }})
-            // Aski.addLayer(circle).addTo(map);
             var image2 = 'images/icons/Aski.jpg'
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(aski),draggable: true}).addTo(map)
+            Aski.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 10) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: friendship.color, circleFillColor: friendship.fillColor }})
-            // Friendship.addLayer(circle).addTo(map);
             var image2 = 'images/icons/OFIFC.png'
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(friendship),draggable: true}).addTo(map)
+            Friendship.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 11) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: onwa.color, circleFillColor: onwa.fillColor }})
-            // Onwa.addLayer(circle).addTo(map);
-            var image2 = 'images/icons/ONWA.png'
-
+            var image2 = 'images/logo/Logo_no_text.png'
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(onwa),draggable: true}).addTo(map)
+            Onwa.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 12) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: inuit.color, circleFillColor: inuit.fillColor }})
-            // Inuit.addLayer(circle).addTo(map);
             var image2 = 'images/icons/inuit.png'
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(inuit),draggable: true}).addTo(map)
+            Inuit.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 13) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: six.color, circleFillColor: six.fillColor }})
-            // Six.addLayer(circle).addTo(map);
             var image2 = 'images/icons/6nations.png'
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(six),draggable: true}).addTo(map)
+            Six.addLayer(circle).addTo(map);
+        //
         } else if (feature.properties.PartnerID === 14) {
-            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: tung_inuit.color, circleFillColor: tung_inuit.fillColor }})
             var image2 = 'images/icons/tung_inuit.jpg'
-            // Tung_inuit.addLayer(circle).addTo(map);
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(tung_inuit),draggable: true}).addTo(map)
+            Tung_inuit.addLayer(circle).addTo(map);
 
         } else {
-            // circle = L.circleMarker(latlng);
-            circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: "rgb(25,25,100)" }})
-
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(other),draggable: true}).addTo(map)
+        //     Tung_inuit.addLayer(circle).addTo(map);
+            // circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: "rgb(25,25,100)" }})
         }
             circle.on('click', function() {
                 // console.log(marker.title)
                 map.flyTo(latlng, 10)
                 $('#data img').attr('src',image2);
+                $('#data .organization').text(feature.properties.Partner)
                 $('#data .website').text(feature.properties.Website)
                 $('#data .email').text(feature.properties.Email)
                 $('#data .contact').text(feature.properties.Contact)
@@ -368,53 +387,3 @@ map.addLayer(fwblayer);
 	// 	marker.bindPopup('title: '+ title );
 	// 	markersLayer.addLayer(marker);
 	// }
-
-
-
-
-
-
-
-
-
-
-   //*****************************//
-   // add clustered markers with layer control //
-
-
-
-   // control.addOverlay(parent, 'Parent');
-   // control.addOverlay(Union, 'Union');
-   // control.addOverlay(Allied, 'Allied');
-   // control.addOverlay(Treaty3, 'Treaty3');
-   // control.addOverlay(Independent, 'Independent');
-   // control.addOverlay(Metis, 'Metis');
-   // control.addOverlay(Sauga, 'Sauga');
-   // control.addOverlay(Mohawk, 'Mohawk');
-   // control.addOverlay(Aski, 'Aski');
-   // control.addOverlay(Friendship, 'Friendship');
-   // control.addOverlay(Onwa, 'Onwa');
-   // control.addOverlay(Inuit, 'Inuit');
-   // control.addOverlay(Six, 'Six Nations');
-   // control.addOverlay(Tung_inuit, 'Tungasuvvingat Inuit ');
-
-   // var parent = L.markerClusterGroup(),
-   //  Union = L.featureGroup.subGroup(parent),
-   //  Allied = L.featureGroup.subGroup(parent),
-   //  Rama = L.featureGroup.subGroup(parent),
-   //  Treaty3 = L.featureGroup.subGroup(parent),
-   //  Independent = L.featureGroup.subGroup(parent),
-   //  Metis = L.featureGroup.subGroup(parent),
-   //  Sauga = L.featureGroup.subGroup(parent),
-   //  Mohawk = L.featureGroup.subGroup(parent),
-   //  Aski = L.featureGroup.subGroup(parent),
-   //  Friendship = L.featureGroup.subGroup(parent),
-   //  Onwa = L.featureGroup.subGroup(parent),
-   //  Inuit = L.featureGroup.subGroup(parent),
-   //  Six = L.featureGroup.subGroup(parent),
-   //  Tung_inuit = L.featureGroup.subGroup(parent),
-   //  control = L.control.layers(null, null, { collapsed: false });
-   // parent.addTo(map);
-   // control.addTo(map);
-
-   //*****************************//

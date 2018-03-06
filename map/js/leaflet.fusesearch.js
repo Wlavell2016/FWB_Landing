@@ -1,5 +1,6 @@
 
 // From http://www.tutorialspoint.com/javascript/array_map.htm
+
 if (!Array.prototype.map)
 {
   Array.prototype.map = function(fun /*, thisp*/)
@@ -283,7 +284,6 @@ L.Control.FuseSearch = L.Control.extend({
         }
     },
 // added by william
-    // added by william
 
     createResultItem: function(props, container, popup) {
         var checkclick = false;
@@ -306,8 +306,54 @@ L.Control.FuseSearch = L.Control.extend({
                     // added by william
                     _this.hidePanel();
                     map.flyTo([feature.layer.feature.properties.Y, feature.layer.feature.properties.X], 10)
-                    console.log(feature.layer.feature.properties.Name)
-                    // $('#data .sidebar-header').text(feature.layer.feature.properties.Partner)
+                    console.log(feature.layer.feature.properties.PartnerID)
+
+                    if (feature.layer.feature.properties.PartnerID === 1) {
+                    var image2 = 'images/icons/union.png'
+
+                    } else if (feature.layer.feature.properties.PartnerID === 2) {
+                    var image2 = 'images/icons/AIAI.png'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 3) {
+                    var image2 = 'images/icons/rama.png'
+
+                    } else if (feature.layer.feature.properties.PartnerID === 4) {
+                    var image2 = 'images/icons/3.jpg'
+
+                    } else if (feature.layer.feature.properties.PartnerID === 5) {
+                    var image2 = 'images/icons/rama.png'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 6) {
+                    var image2 = 'images/icons/metis.png'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 7) {
+                    var image2 = 'images/icons/newcredit.png'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 8) {
+                    var image2 = 'images/icons/mohawk.jpg'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 9) {
+                    var image2 = 'images/icons/Aski.jpg'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 10) {
+                    var image2 = 'images/icons/OFIFC.png'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 11) {
+                    var image2 = 'images/logo/Logo_no_text.png'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 12) {
+                    var image2 = 'images/icons/inuit.png'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 13) {
+                    var image2 = 'images/icons/6nations.png'
+                        //                    //
+                    } else if (feature.layer.feature.properties.PartnerID === 14) {
+                    var image2 = 'images/icons/tung_inuit.jpg'
+                    } else {
+                    console.log('no id')
+                    }
+                    $('#data img').attr('src',image2);
+                    $('#data .organization').text(feature.properties.Partner)
                     $('#data .website').text(feature.layer.feature.properties.Website)
                     $('#data .email').text(feature.layer.feature.properties.Email)
                     $('#data .contact').text(feature.layer.feature.properties.Contact)
