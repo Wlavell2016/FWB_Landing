@@ -248,78 +248,83 @@ var fwblayer = L.geoJSON(data3, {
 
         if (feature.properties.PartnerID === 1) {
             var image2 = 'images/icons/union.png'
-            var circle = L.circleMarker(latlng,  union);
-            Union.addLayer(circle).addTo(map);
+            // var marker = new L.Marker.SVGMarker(latlng)
+            var circle =  new L.Marker.SVGMarker(latlng, { iconOptions: { color: union.color, circleFillColor: union.fillColor }})
+            // Union.addLayer(circle).addTo(map);
 
         } else if (feature.properties.PartnerID === 2) {
             var image2 = 'images/icons/AIAI.png'
-            var circle = L.circleMarker(latlng,  allied);
-            Allied.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: allied.color, circleFillColor: allied.fillColor }})
+            // Allied.addLayer(circle).addTo(map);
 
         } else if (feature.properties.PartnerID === 3) {
-            var circle = L.circleMarker(latlng, rama);
-            Rama.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: rama.color, circleFillColor: rama.fillColor }})
+            // Rama.addLayer(circle).addTo(map);
             var image2 = 'images/icons/rama.png'
 
             // feature.layer = Rama;
 
         } else if (feature.properties.PartnerID === 4) {
-            var circle = L.circleMarker(latlng, treaty3);
-            Treaty3.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: treaty3.color, circleFillColor: treaty3.fillColor }})
+            // Treaty3.addLayer(circle).addTo(map);
             var image2 = 'images/icons/3.jpg'
 
         } else if (feature.properties.PartnerID === 5) {
             var circle = L.circleMarker(latlng, independant);
-            Independent.addLayer(circle).addTo(map);
+            // Independent.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: independant.color, circleFillColor: independant.fillColor }})
+
             // var image2 = 'images/icons/rama.png'
 
         } else if (feature.properties.PartnerID === 6) {
-            var circle = L.circleMarker(latlng, metis);
-            Metis.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: metis.color, circleFillColor: metis.fillColor }})
+            // Metis.addLayer(circle).addTo(map);
             var image2 = 'images/icons/metis.png'
 
         } else if (feature.properties.PartnerID === 7) {
-            var circle = L.circleMarker(latlng, sauga);
-            Sauga.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: sauga.color, circleFillColor: sauga.fillColor }})
+            // Sauga.addLayer(circle).addTo(map);
             var image2 = 'images/icons/newcredit.png'
 
         } else if (feature.properties.PartnerID === 8) {
-            var circle = L.circleMarker(latlng, mohawk);
-            Mohawk.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: mohawk.color, circleFillColor: mohawk.fillColor }})
+            // Mohawk.addLayer(circle).addTo(map);
             var image2 = 'images/icons/mohawk.jpg'
 
         } else if (feature.properties.PartnerID === 9) {
-            var circle = L.circleMarker(latlng, aski);
-            Aski.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color:aski.color, circleFillColor:aski.fillColor }})
+            // Aski.addLayer(circle).addTo(map);
             var image2 = 'images/icons/Aski.jpg'
 
         } else if (feature.properties.PartnerID === 10) {
-            var circle = L.circleMarker(latlng, friendship);
-            Friendship.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: friendship.color, circleFillColor: friendship.fillColor }})
+            // Friendship.addLayer(circle).addTo(map);
             var image2 = 'images/icons/OFIFC.png'
 
         } else if (feature.properties.PartnerID === 11) {
-            var circle = L.circleMarker(latlng, onwa);
-            Onwa.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: onwa.color, circleFillColor: onwa.fillColor }})
+            // Onwa.addLayer(circle).addTo(map);
             var image2 = 'images/icons/ONWA.png'
 
         } else if (feature.properties.PartnerID === 12) {
-            var circle = L.circleMarker(latlng, inuit);
-            Inuit.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: inuit.color, circleFillColor: inuit.fillColor }})
+            // Inuit.addLayer(circle).addTo(map);
             var image2 = 'images/icons/inuit.png'
 
         } else if (feature.properties.PartnerID === 13) {
-            var circle = L.circleMarker(latlng, six);
-            Six.addLayer(circle).addTo(map);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: six.color, circleFillColor: six.fillColor }})
+            // Six.addLayer(circle).addTo(map);
             var image2 = 'images/icons/6nations.png'
 
         } else if (feature.properties.PartnerID === 14) {
-            var circle = L.circleMarker(latlng, tung_inuit);
+            var circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: tung_inuit.color, circleFillColor: tung_inuit.fillColor }})
             var image2 = 'images/icons/tung_inuit.jpg'
-            Tung_inuit.addLayer(circle).addTo(map);
+            // Tung_inuit.addLayer(circle).addTo(map);
 
         } else {
-            circle = L.circleMarker(latlng);
+            // circle = L.circleMarker(latlng);
+            circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: "rgb(25,25,100)" }})
+
         }
             circle.on('click', function() {
                 // console.log(marker.title)
