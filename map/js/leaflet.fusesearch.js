@@ -305,9 +305,20 @@ L.Control.FuseSearch = L.Control.extend({
                     _this._panAndPopup(feature, popup);
                     // added by william
                     _this.hidePanel();
-                    map.flyTo([feature.layer.feature.properties.Y, feature.layer.feature.properties.X], 10)
-                    console.log(feature.layer.feature.properties.PartnerID)
 
+                    if (window.matchMedia("(min-width: 992px)").matches) {
+                        map.flyTo([feature.layer.feature.properties.Y, feature.layer.feature.properties.X], 10)
+                    } else if(window.matchMedia("(min-width: 768px)").matches) {
+                        var mapoffsetY = feature.layer.feature.properties.Y - -0.09
+                        var mapoffsetX = feature.layer.feature.properties.X - 0.25
+                        map.flyTo([mapoffsetY, mapoffsetX],10)
+                    } else if (window.matchMedia("(min-width: 300px)").matches) {
+                        var mapoffsetY = feature.layer.feature.properties.Y - 0.14
+                        var mapoffsetX = feature.layer.feature.properties.X - 0
+                        map.flyTo([mapoffsetY, mapoffsetX],10)
+                    } else {
+                    map.flyTo([feature.layer.feature.properties.Y, feature.layer.feature.properties.X], 10)
+                    }
                     if (feature.layer.feature.properties.PartnerID === 1) {
                     var image2 = 'images/icons/union.png'
 
