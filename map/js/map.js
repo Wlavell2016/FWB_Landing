@@ -280,76 +280,76 @@ var fwblayer = L.geoJSON(data3, {
 
         if (feature.properties.PartnerID === 1) {
             var image2 = 'images/icons/union.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(union),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(union)}).addTo(map)
             Union.addLayer(circle).addTo(map);
 
         } else if (feature.properties.PartnerID === 2) {
             var image2 = 'images/icons/AIAI.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(allied),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(allied)}).addTo(map)
             Allied.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 3) {
             var image2 = 'images/icons/rama.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(rama),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(rama)}).addTo(map)
             Rama.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 4) {
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(treaty3),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(treaty3)}).addTo(map)
             Treaty3.addLayer(circle).addTo(map);
             var image2 = 'images/icons/3.jpg'
         //
         } else if (feature.properties.PartnerID === 5) {
             var image2 = 'images/icons/rama.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(independant),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(independant)}).addTo(map)
             Independent.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 6) {
             var image2 = 'images/icons/metis.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(metis),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(metis)}).addTo(map)
             Metis.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 7) {
             var image2 = 'images/icons/newcredit.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(sauga),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(sauga)}).addTo(map)
             Sauga.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 8) {
             var image2 = 'images/icons/mohawk.jpg'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(mohawk),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(mohawk)}).addTo(map)
             Mohawk.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 9) {
             var image2 = 'images/icons/Aski.jpg'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(aski),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(aski)}).addTo(map)
             Aski.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 10) {
             var image2 = 'images/icons/OFIFC.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(friendship),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(friendship)}).addTo(map)
             Friendship.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 11) {
             var image2 = 'images/logo/Logo_no_text.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(onwa),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(onwa)}).addTo(map)
             Onwa.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 12) {
             var image2 = 'images/icons/inuit.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(inuit),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(inuit)}).addTo(map)
             Inuit.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 13) {
             var image2 = 'images/icons/6nations.png'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(six),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(six)}).addTo(map)
             Six.addLayer(circle).addTo(map);
         //
         } else if (feature.properties.PartnerID === 14) {
             var image2 = 'images/icons/tung_inuit.jpg'
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(tung_inuit),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(tung_inuit)}).addTo(map)
             Tung_inuit.addLayer(circle).addTo(map);
 
         } else {
-            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(other),draggable: true}).addTo(map)
+            var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(other)}).addTo(map)
         //     Tung_inuit.addLayer(circle).addTo(map);
             // circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: "rgb(25,25,100)" }})
         }
