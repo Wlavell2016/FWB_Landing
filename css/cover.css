@@ -52,8 +52,8 @@ margin-right: 1vw;
 @media(min-width:992px){
     .navbar-brand img {
         transition: 0.9s all;
-        height: 91px;
-        width:101px;
+        height: 121px;
+        width:111px;
     }
 
     .nav3 {
