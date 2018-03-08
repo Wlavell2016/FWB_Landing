@@ -28,3 +28,8 @@
     /* top:2vh; */
     /* border: solid white 2px; */
 }
+
+.navbar-brand img {
+    width: 61px;
+    height: 71px;
+}

@@ -1,3 +1,4 @@
+
 * {
 /* color: #FFF; */
 font-family: 'Roboto',Helvetica,Arial,serif;
@@ -12,6 +13,8 @@ h3 {
 /* color: rgba(252,180,20,1.0); */
 }
 
+p {
+}
 a,
 a:focus,
 a:hover {
@@ -225,6 +228,17 @@ body {
 }
 
 .intro_row_content3  p{
+}
+
+.purpose_text {
+
+}
+.vision_text {
+display: none
+}
+
+.goal_text{
+display:none;
 }
 
 @media (min-width: 992px) {
@@ -484,21 +498,7 @@ bottom: 10vh;
 }
 
 
-.purpose_text  {
-    display: block;
-}
 
-.goal_text   {
-    display:none;
-}
-
-.vision_text  {
-    display:none;
-}
-
-.introbox {
-        height:70vh;
-}
 
 @media (min-width: 992px) {
     .mobile_section_services {
@@ -1004,7 +1004,7 @@ bottom: 10vh;
 .cover_contact p {
     font-weight: 400;
     color:#FFF;
-    font-size: xx-small;
+    font-size: medium;
 }
 
 .cover_contact .nav-link{

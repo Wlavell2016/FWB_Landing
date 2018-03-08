@@ -2,19 +2,17 @@ $('#purpose').on("click", function(event){
     $('#purpose1').addClass('active')
     $('#vision1').removeClass('active')
     $('#goal1').removeClass('active')
-    // $('.photo2').css('backgroundImage','url(images/top_photos/childrenpowwow1.jpg)');
+    $('.photo2').css('backgroundImage','url(images/top_photos/childrenpowwow1.jpg)');
     $('#image3').css('backgroundImage','url(images/top_photos/smilingBaby.jpg)')
     $('#image2').css('backgroundImage','url(images/top_photos/drumming.jpg)');
     $('#image1').css('backgroundImage','url(images/actions/dancing.jpg)');
     $('#image1').css('backgroundImage','url(images/actions/dancing.jpg)');
-    $('.purpose_text').css('display', 'block')
+    $('.purpose_text').fadeIn(200)
     $('.vision_text').css('display', 'none')
     $('.goal_text').css('display', 'none')
-    // $('.purpose_text').fadeOut(3000)
-    // $('.vision_text').fadeOut('slow')
-    // $('.goal_text').fadeOut('slow')
 })
 
+// $('.intro_row_content1').fadeIn(100)
 
 
  $('#vision').on("click", function(event){
@@ -25,7 +23,7 @@ $('#purpose').on("click", function(event){
      $('#image1').css('backgroundImage','url(images/people/smiling_dancer.jpg)');
      $('#image2').css('backgroundImage','url(images/places/fire.jpg)');
      $('#image3').css('backgroundImage','url(images/people/motherdaughter1.jpg)');
-     $('.vision_text').css('display', 'block')
+     $('.vision_text').fadeIn(2000)
      $('.purpose_text').css('display', 'none')
      $('.goal_text').css('display', 'none')
 })
@@ -38,7 +36,7 @@ $('#goal').on("click", function(event){
     $('#image1').css('backgroundImage','url(images/people/dancing_elders.jpg)');
     $('#image2').css('backgroundImage','url(images/people/community.jpg)');
     $('#image3').css('backgroundImage','url(images/top_photos/stones.jpg)');
-    $('.goal_text').css('display', 'block')
+    $('.goal_text').fadeIn(2000)
     $('.vision_text').css('display', 'none')
     $('.purpose_text').css('display', 'none')
 console.log("fired")
