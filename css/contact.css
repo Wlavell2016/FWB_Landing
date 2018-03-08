@@ -1,15 +1,17 @@
 /* about cover page****************** */
 
-.contact_page_container {
+body {
     background-image:url("../images/top_photos/drumming.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
-    height: 100vh;
+}
+
+.contact_page_container {
     opacity: 0.9;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .contact_page_container p {
@@ -32,8 +34,14 @@
 
 
 /* ***************** */
+.form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-
+/* ***************** */
 
 .text_contact {
     display:none;
@@ -241,6 +249,10 @@
     font-family: 'Roboto',Helvetica,Arial,serif;
     font-weight: 700;
     font-size: 41px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main2 {
@@ -255,7 +267,6 @@ margin-bottom: 9vh;
         display:block;
     }
     .contact_page_container {
-        background-image:url("../images/top_photos/drumming.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
@@ -293,7 +304,6 @@ margin-bottom: 9vh;
         font-size: unset;
     }
     .contact_page_container {
-        background-image:url("../images/top_photos/drumming.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
@@ -325,4 +335,18 @@ margin-bottom: 9vh;
     .top2 {
         display:block
     }
+}
+
+.btn-danger {
+    background-color: #7477a0;
+    border-color: #7477a0;
+}
+
+.section-contact-form {
+    margin-bottom:10vh;
+}
+
+@media(min-width:992px){
+.section-contact-form {
+        margin-bottom:0vh;
 }
