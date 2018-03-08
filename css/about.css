@@ -5,6 +5,8 @@
     background-size: cover;
     background-position: center center;
     opacity:0.8;
+    transition: 1.5s all;
+
 }
 
 .aboutpage_container {
@@ -15,6 +17,8 @@
     /* width: 100vw; */
     height: 120vh;
     opacity: 0.9;
+    transition: 1.5s all;
+
 }
 
 @media(min-width:576px){
@@ -25,6 +29,8 @@
         /* width: 100vw; */
         height: 120vh;
         opacity: 0.9;
+        transition: 1.5s all;
+
     }
 }
 
@@ -404,20 +410,24 @@ margin-top: 5vh;
     color: #7798c6;
 }
 
-.testimonal1 {
+.testimonial1 {
     display: block;
+    transition: 1.5s all;
 }
 
-.testimonal2 {
+.testimonial2 {
     display: none;
+    transition: 1.5s all;
 }
 
-.testimonal3 {
+.testimonial3 {
     display: none;
+    transition: 1.5s all;
 }
 
-.testimonal4 {
+.testimonial4 {
     display: none;
+    transition: 1.5s all;
 }
 
 .testimonial_image {

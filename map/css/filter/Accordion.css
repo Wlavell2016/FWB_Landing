@@ -63,7 +63,7 @@ width:100%;
 padding:15px;
 display:inline-block;
 border-bottom:1px solid #1a1a1a;
-background:#6d8ec2;
+background:#7579A0;
 
 /* background: #f7f7f7; */
 transition:all linear 0.15s;
@@ -74,7 +74,7 @@ text-shadow:0px 1px 0px #1a1a1a;
 color:#fff;
 }
 .accordion-section-title.active, .accordion-section-title:hover {
- background:#373944;
+ background:#6d8ec2;
 /* background:#50adff;  */
 /* Type */
 text-decoration:none;

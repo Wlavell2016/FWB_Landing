@@ -18,6 +18,7 @@ a:hover {
   color: #fff;
 }
 
+
 body {
     background-color: rgba(28,28,28,1.0)!important;
   /* background-color: green; */
@@ -228,12 +229,16 @@ body {
     }
 }
 
+
+
 .photo2 {
     background-image:url("../images/people/childrenpowwow1.jpg");
     height:60vw;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    transition: 0.9s all;
+
 }
 
 @media (min-width: 992px) {
@@ -243,6 +248,8 @@ body {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+        transition: 0.9s all;
+
     }
 }
 
@@ -295,6 +302,8 @@ bottom: 10vh;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.9s all;
+
 }
 
 .image2 {
@@ -302,6 +311,8 @@ bottom: 10vh;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.9s all;
+
 }
 
 .image3 {
@@ -309,6 +320,7 @@ bottom: 10vh;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.9s all;
 }
 
 
@@ -389,7 +401,6 @@ bottom: 10vh;
     color: #FFF;
     z-index: 1;
     font-weight: 400;
-    font-size:  1.25em;
     text-transform: uppercase;
     position:relative;
     z-index: 0;
@@ -450,17 +461,39 @@ bottom: 10vh;
     background-position: center;
 }
 
-.vision_text {
+/* .vision_text {
     display:none;
 }
 
 .goal_text {
     display:none
-}
+} */
 /* services description****************** */
 .mobile_section_services {
     display:flex;
 }
+
+.goal_text p,
+.vision_text p,
+.purpose_text p {
+    transition: 0.9s all;
+}
+
+.purpose_text  {
+    transition: 0.9s all;
+    display: block;
+}
+
+.goal_text   {
+    transition: 0.9s all;
+    display:none;
+}
+
+.vision_text  {
+    transition: 0.9s all;
+    display:none;
+}
+
 
 @media (min-width: 992px) {
     .mobile_section_services {
