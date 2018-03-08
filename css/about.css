@@ -278,12 +278,13 @@ margin-top: 5vh;
 
 
 
-.about_photo1 {
+/* .about_photo1 {
     background-image:url("../images/objects/dress.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     display: none;
+    transition: 0.9s all;
 }
 
 .about_photo2 {
@@ -292,6 +293,8 @@ margin-top: 5vh;
     background-size: cover;
     background-position: center center;
     display: none;
+    transition: 0.9s all;
+
 }
 
 .about_photo3 {
@@ -300,7 +303,9 @@ margin-top: 5vh;
     background-size: cover;
     background-position: center center;
     display: none;
-}
+    transition: 0.9s all;
+
+} */
 
 /* @media(min-width:576px){
     .about_photo1 {

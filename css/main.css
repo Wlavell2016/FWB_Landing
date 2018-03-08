@@ -214,7 +214,17 @@ body {
     margin-left: 4vw;
     margin-right: 4vw;
     z-index: 0;
+}
 
+.intro_row_content1 p {
+
+}
+
+.intro_row_content2 p {
+
+}
+
+.intro_row_content3  p{
 }
 
 @media (min-width: 992px) {
@@ -473,33 +483,29 @@ bottom: 10vh;
     display:flex;
 }
 
-.goal_text p,
-.vision_text p,
-.purpose_text p {
-    transition: 0.9s all;
-}
 
 .purpose_text  {
-    transition: 0.9s all;
     display: block;
 }
 
 .goal_text   {
-    transition: 0.9s all;
     display:none;
 }
 
 .vision_text  {
-    transition: 0.9s all;
     display:none;
 }
 
+.introbox {
+        height:70vh;
+}
 
 @media (min-width: 992px) {
     .mobile_section_services {
         display:none;
     }
 }
+
 
 .services_section_desktop {
     display: none;
@@ -511,9 +517,7 @@ bottom: 10vh;
     }
 }
 
-.mobile_section_services {
 
-}
 
 .services_section {
     height: 140vh;

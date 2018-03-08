@@ -2,7 +2,7 @@ $('#purpose').on("click", function(event){
     $('#purpose1').addClass('active')
     $('#vision1').removeClass('active')
     $('#goal1').removeClass('active')
-    $('.photo2').css('backgroundImage','url(images/top_photos/childrenpowwow1.jpg)');
+    // $('.photo2').css('backgroundImage','url(images/top_photos/childrenpowwow1.jpg)');
     $('#image3').css('backgroundImage','url(images/top_photos/smilingBaby.jpg)')
     $('#image2').css('backgroundImage','url(images/top_photos/drumming.jpg)');
     $('#image1').css('backgroundImage','url(images/actions/dancing.jpg)');
@@ -10,7 +10,7 @@ $('#purpose').on("click", function(event){
     $('.purpose_text').css('display', 'block')
     $('.vision_text').css('display', 'none')
     $('.goal_text').css('display', 'none')
-    // $('.purpose_text').fadeIn('slow')
+    // $('.purpose_text').fadeOut(3000)
     // $('.vision_text').fadeOut('slow')
     // $('.goal_text').fadeOut('slow')
 })
@@ -21,7 +21,7 @@ $('#purpose').on("click", function(event){
      $('#vision1').addClass('active')
      $('#purpose1').removeClass('active')
      $('#goal1').removeClass('active')
-     $('.photo2').css('backgroundImage','url(images/top_photos/smudging.jpg)').fadeIn(3000);
+     $('.photo2').css('backgroundImage','url(images/top_photos/smudging.jpg)');
      $('#image1').css('backgroundImage','url(images/people/smiling_dancer.jpg)');
      $('#image2').css('backgroundImage','url(images/places/fire.jpg)');
      $('#image3').css('backgroundImage','url(images/people/motherdaughter1.jpg)');
@@ -44,12 +44,13 @@ $('#goal').on("click", function(event){
 console.log("fired")
 })
 
+
 // js for about page
 $('#text_1').on("click", function(event){
     $('#text_1').addClass('about_active')
     $('#text_2').removeClass('about_active')
     $('#text_3').removeClass('about_active')
-    $('.intro_row_content1').css('display', 'flex')
+    $('.intro_row_content1').fadeIn(2000)
     $('.intro_row_content2').css('display', 'none')
     $('.intro_row_content3').css('display', 'none')
     $('.introbox').css('background-image','url(images/objects/recon.jpg)')
@@ -61,7 +62,7 @@ $('#text_1').on("click", function(event){
      $('#text_2').addClass('about_active')
      $('#text_1').removeClass('about_active')
      $('#text_3').removeClass('about_active')
-     $('.intro_row_content2').css('display', 'flex')
+     $('.intro_row_content2').fadeIn(2000)
      $('.intro_row_content1').css('display', 'none')
      $('.intro_row_content3').css('display', 'none')
      $('.introbox').css('background-image','url(images/objects/dress.jpg)')
@@ -71,7 +72,7 @@ $('#text_3').on("click", function(event){
     $('#text_3').addClass('about_active')
     $('#text_1').removeClass('about_active')
     $('#text_2').removeClass('about_active')
-    $('.intro_row_content3').css('display', 'flex')
+    $('.intro_row_content3').fadeIn(2000)
     $('.intro_row_content2').css('display', 'none')
     $('.intro_row_content1').css('display', 'none')
     $('.introbox').css('background-image','url(images/objects/flowers.jpg)')
