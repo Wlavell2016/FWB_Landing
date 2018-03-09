@@ -28,19 +28,19 @@ $('#goal').on("click", function(event){
 
 // js for about page
 $('.text1_1').on("click", function(event){
-    $('.introbox').fadeIn(2000)
+    $('.introbox').fadeIn(1500)
     $('.introbox3').css('display', 'none')
     $('.introbox2').css('display', 'none')
 })
 
  $('.text2_2').on("click", function(event){
-     $('.introbox2').fadeIn(2000)
+     $('.introbox2').fadeIn(1500)
      $('.introbox3').css('display', 'none')
      $('.introbox').css('display', 'none')
 })
 
 $('.text3_3').on("click", function(event){
-    $('.introbox3').fadeIn(2000)
+    $('.introbox3').fadeIn(1500)
     $('.introbox').css('display', 'none')
     $('.introbox2').css('display', 'none')
 })
