@@ -7,10 +7,7 @@ body {
     background-position: center left;
 }
 
-.navbar-brand img {
-    width: 61px;
-    height: 71px;
-}
+
 .contact_page_container {
     opacity: 0.9;
     display: flex;
