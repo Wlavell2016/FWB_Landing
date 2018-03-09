@@ -23,7 +23,14 @@
     color: #6d8ec2;
 }
 
+.leaflet-control-custom {
+    background-size: cover;
+    background-position: center center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
 
+}
 
 .sidebar-pane h2,
 .sidebar-pane h3,

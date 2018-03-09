@@ -42,6 +42,8 @@ console.log ('ok')
     attribution: 'Map data &copy; OpenStreetMap contributors'
 }).addTo(map);
 
+var center = map.getCenter()
+
 map.on('click',function() {
     var center = map.getCenter()
     console.log(center)
@@ -225,6 +227,8 @@ var Onwa = L.layerGroup().addTo(map);
 var Inuit = L.layerGroup().addTo(map);
 var Six = L.layerGroup().addTo(map);
 var Tung_inuit = L.layerGroup().addTo(map);
+var All = L.layerGroup().addTo(map);
+
 
 // make array to story color values
 var color = [union, allied, rama, treaty3, independant, metis, sauga, mohawk ,aski ,friendship, onwa, inuit, six, tung_inuit]
@@ -263,11 +267,13 @@ console.log ('too small')
    'Ottawa Inuit Children\'s Centre': Inuit,
    'Six Nations Of the Grand River': Six,
    'Tungasuvvingat Inuit': Tung_inuit,
-   // 'All': parent
+   'All': All,
  };
 
 
-L.control.layers(communities).addTo(map);
+// L.control.layers(communities,).addTo(map);
+layerControl = L.control.layers(null, communities, {position: 'topleft'});
+layerControl.addTo(map);
 
 // readData(data2);
 var sidebar = L.control.sidebar('sidebar').addTo(map);
@@ -277,84 +283,108 @@ var sidebar = L.control.sidebar('sidebar').addTo(map);
 
 var fwblayer = L.geoJSON(data3, {
     pointToLayer: function(feature, latlng) {
-
         if (feature.properties.PartnerID === 1) {
             var image2 = 'images/icons/union.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(union)}).addTo(map)
             Union.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
 
         } else if (feature.properties.PartnerID === 2) {
             var image2 = 'images/icons/AIAI.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(allied)}).addTo(map)
             Allied.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 3) {
             var image2 = 'images/icons/rama.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(rama)}).addTo(map)
             Rama.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 4) {
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(treaty3)}).addTo(map)
             Treaty3.addLayer(circle).addTo(map);
             var image2 = 'images/icons/3.jpg'
-        //
+            All.addLayer(circle).addTo(map);
+
+            //
         } else if (feature.properties.PartnerID === 5) {
             var image2 = 'images/icons/rama.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(independant)}).addTo(map)
             Independent.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 6) {
             var image2 = 'images/icons/metis.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(metis)}).addTo(map)
             Metis.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 7) {
             var image2 = 'images/icons/newcredit.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(sauga)}).addTo(map)
             Sauga.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 8) {
             var image2 = 'images/icons/mohawk.jpg'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(mohawk)}).addTo(map)
             Mohawk.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 9) {
             var image2 = 'images/icons/Aski.jpg'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(aski)}).addTo(map)
             Aski.addLayer(circle).addTo(map);
-        //
+            All.addLayer(circle).addTo(map);
+
+            //
         } else if (feature.properties.PartnerID === 10) {
             var image2 = 'images/icons/OFIFC.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(friendship)}).addTo(map)
             Friendship.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 11) {
             var image2 = 'images/logo/Logo_no_text.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(onwa)}).addTo(map)
             Onwa.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 12) {
             var image2 = 'images/icons/inuit.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(inuit)}).addTo(map)
             Inuit.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 13) {
             var image2 = 'images/icons/6nations.png'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(six)}).addTo(map)
             Six.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
         //
         } else if (feature.properties.PartnerID === 14) {
             var image2 = 'images/icons/tung_inuit.jpg'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(tung_inuit)}).addTo(map)
             Tung_inuit.addLayer(circle).addTo(map);
+            All.addLayer(circle).addTo(map);
+
 
         } else {
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(other)}).addTo(map)
-        //     Tung_inuit.addLayer(circle).addTo(map);
-            // circle = new L.Marker.SVGMarker(latlng, { iconOptions: { color: "rgb(25,25,100)" }})
+            All.addLayer(circle).addTo(map);
+
         }
-            // var mapoffsetY = feature.properties.Y - 0.02
-            // var mapoffsetX = feature.properties.X - 0.1
 
             circle.on('click', function() {
                 // console.log(marker.title)
@@ -371,7 +401,6 @@ var fwblayer = L.geoJSON(data3, {
                 } else {
                 console.log ('ok')
                 }
-                // map.setView([feature.properties.Y,feature.properties.X],10)
                 $('#data img').attr('src',image2);
                 $('#data .organization').text(feature.properties.Partner)
                 $('#data .website').text(feature.properties.Website)
@@ -402,13 +431,29 @@ map.addLayer(fwblayer);
 
     var searchCtrl = L.control.fuseSearch()
     searchCtrl.addTo(map);
-
     searchCtrl.indexFeatures(data3, ['Name', 'Partner']);
-	////////////populate map with markers from sample data
-	// for(i in data) {
-	// 	var title = data[i].title,	//value searched
-	// 		loc = data[i].loc,		//position found
-	// 		marker = new L.Marker(new L.latLng(loc), {title: title} );//se property searched
-	// 	marker.bindPopup('title: '+ title );
-	// 	markersLayer.addLayer(marker);
-	// }
+    //  ***************************************************************************//
+
+
+    var customControl =  L.Control.extend({options: {position: 'topright'},
+
+      onAdd: function (map) {
+        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+        container.style.backgroundColor = 'white';
+        container.style.backgroundImage = "url(images/home.png)";
+        container.style.backgroundSize = "22px 22px";
+        container.style.width = '44px';
+        container.style.height = '44px';
+container.style.align='center';
+        container.onclick = function(){
+            map.flyTo(center, 5.5)
+            sidebar.close('#sidebar');
+        }
+
+        return container;
+      }
+    });
+    var map;
+      map.addControl(new customControl());
+    // }

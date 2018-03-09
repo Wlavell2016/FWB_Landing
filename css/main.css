@@ -206,6 +206,7 @@ body {
 }
 
 
+
 .topic_row p:hover::before {
       content: "";
       position:absolute;
@@ -848,9 +849,7 @@ bottom: 10vh;
         display:flex;
     }
 }
-@media(min-width: 992px) {
 
-}
 
 /* partners_section ****************** */
 
@@ -864,8 +863,8 @@ bottom: 10vh;
     border-image-width: 20px;
     border-image-slice: 50;
     /* height: 75%; */
-    opacity: 0.7;
-    background-image:url("../images/places/stones.jpg");)
+    /* opacity: 0; */
+    background-image:url("../images/places/stones2.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;

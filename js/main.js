@@ -27,36 +27,22 @@ $('#goal').on("click", function(event){
 })
 
 // js for about page
-$('#text_1').on("click", function(event){
-    $('#text_1').addClass('about_active')
-    $('#text_2').removeClass('about_active')
-    $('#text_3').removeClass('about_active')
-    $('.intro_row_content1').fadeIn(2000)
-    $('.intro_row_content2').css('display', 'none')
-    $('.intro_row_content3').css('display', 'none')
-    $('.introbox').css('background-image','url(images/objects/recon.jpg)')
+$('.text1_1').on("click", function(event){
+    $('.introbox').fadeIn(2000)
+    $('.introbox3').css('display', 'none')
+    $('.introbox2').css('display', 'none')
 })
 
- $('#text_2').on("click", function(event){
-     console.log('fired')
-     $('#text_2').addClass('about_active')
-     $('#text_1').removeClass('about_active')
-     $('#text_3').removeClass('about_active')
-     $('.intro_row_content2').fadeIn(2000)
-     $('.intro_row_content1').css('display', 'none')
-     $('.intro_row_content3').css('display', 'none')
-     $('.introbox').css('background-image','url(images/objects/dress.jpg)')
+ $('.text2_2').on("click", function(event){
+     $('.introbox2').fadeIn(2000)
+     $('.introbox3').css('display', 'none')
+     $('.introbox').css('display', 'none')
 })
 
-$('#text_3').on("click", function(event){
-    $('#text_3').addClass('about_active')
-    $('#text_1').removeClass('about_active')
-    $('#text_2').removeClass('about_active')
-    $('.intro_row_content3').fadeIn(2000)
-    $('.intro_row_content2').css('display', 'none')
-    $('.intro_row_content1').css('display', 'none')
-    $('.introbox').css('background-image','url(images/objects/flowers.jpg)')
-console.log("fired")
+$('.text3_3').on("click", function(event){
+    $('.introbox3').fadeIn(2000)
+    $('.introbox').css('display', 'none')
+    $('.introbox2').css('display', 'none')
 })
 
 // js for about page testimonials
