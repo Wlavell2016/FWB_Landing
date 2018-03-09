@@ -112,7 +112,7 @@ $(document).ready(function() {
                 $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '91px').css('height', '91px')
             } else if (window.matchMedia("(min-width: 300px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '51px').css('height', '61px')
+                $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '71px').css('height', '81px')
             } else {
                 console.log('ok')
             }
