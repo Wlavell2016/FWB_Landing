@@ -21,18 +21,16 @@ a:hover {
 
  .navbar-brand img {
     transition: 0.9s all;
-    /* display:none; */
-    height: 91px;
-    width:101px;
+    display:none;
+    height:121px;
+    width: 111px;
 }
 
 @media(min-width:576px){
     .navbar-brand img {
         transition: 0.9s all;
-        /* display:none; */
+        display:none;
 
-        /* height: 111px;
-        width:121px; */
     }
     .nav3 {
     background-color: #373944;
@@ -45,9 +43,6 @@ a:hover {
     .navbar-brand img {
         transition: 0.9s all;
         display:block;
-
-        /* height: 111px;
-        width:121px; */
     }
     .nav3 {
     background-color: #373944;
@@ -55,35 +50,12 @@ a:hover {
     height: 11vh;
     }
 }
-
 
 .navbar-toggler {
 margin-right: 1vw;
 }
 
-@media(min-width:576px){
-    .navbar-toggler {
 
-    }
-}
-
-@media(min-width:992px){
-    .navbar-brand img {
-        transition: 0.9s all;
-        height: 121px;
-        width:111px;
-    }
-
-    .nav3 {
-    background-color: #373944;
-    transition: 0.9s all;
-    height: 11vh;
-    }
-
-}
-
-.body {
-}
 
 img {
     transition: 0.9s all;
@@ -98,20 +70,13 @@ font-weight: 700;
 color: #fff!important;
 text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 transition: 0.9s all ease;
-height: 20vh;
-
+/* height: 20vh; */
 }
 
 .nav3 {
 background-color: #373944;
 transition: 0.9s all;
-height: 13vh;
-}
-
-.nav4{
-    background-color: #373944;
-    transition: 0.9s all;
-    height: 11vh;
+height: 11vh;
 }
 
 .navbar-light .navbar-nav .nav-link  {
@@ -146,9 +111,7 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.cover-container {
-  /* max-width: 42em; */
-}
+
 
 
 /*
@@ -167,12 +130,9 @@ body {
 .nav-masthead .nav-link {
   padding: .45rem 0;
   font-weight: 700;
-  /* color: rgba(255, 255, 255, .5); */
   background-color: transparent;
   border-bottom: 3px solid transparent;
   border-top: 3px solid transparent;
-  /* position: absolute; */
-
 }
 
 .buttonrow {
@@ -182,8 +142,6 @@ body {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    /* height: 10vh; */
-    /* border: solid white 2px; */
 }
 
 .nav-masthead .nav-link:hover,
@@ -203,7 +161,6 @@ body {
      color:white;
 }
 .nav-masthead .active {
-  /* color: #fff; */
   border-bottom-color: #fcb414;
   border-top-color: #fcb414;
   color: rgba(252,180,20,1.0)!important;
@@ -217,9 +174,6 @@ body {
     float: left;
   }
   .nav-masthead {
-    /* margin-top:2vh; */
-    /* float: right; */
-
   }
 }
 

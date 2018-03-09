@@ -23,7 +23,6 @@ $('#goal').on("click", function(event){
     $('.introbox3_2').fadeIn(2000)
     $('.introbox2_2').css('display', 'none')
     $('.introbox').css('display', 'none')
-    $('.photo2').css('backgroundImage','url(images/people/hugging.jpg)');
 })
 
 // js for about page
@@ -106,13 +105,13 @@ $(document).ready(function() {
         if (scroll > viewportHeight) {
             if (window.matchMedia("(min-width: 992px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '91px').css('height', '101px')
+                $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '61px').css('height', '71px')
             } else if (window.matchMedia("(min-width: 768px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '91px').css('height', '91px')
+                $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '61px').css('height', '71px')
             } else if (window.matchMedia("(min-width: 300px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '71px').css('height', '81px')
+                $('a.navbar-brand img').attr('src', 'images/logo/Logo_no_text.png').css('width', '51px').css('height', '61px')
             } else {
                 console.log('ok')
             }
@@ -126,7 +125,7 @@ $(document).ready(function() {
 
             } else if (window.matchMedia("(min-width: 300px)").matches) {
                 $(".navbar").removeClass("nav3");
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '81px').css('height', '91px')
+                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '71px').css('height', '81px')
 
             } else {
                 console.log('ok')

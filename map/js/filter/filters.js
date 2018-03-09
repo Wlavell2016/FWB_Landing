@@ -70,6 +70,7 @@ $('.accordion-section p').click(function(e){
     var location = $(this).text();
     var latlng = findLatLng(location, data3);
     map.flyTo(latlng, 10)
+    
 });
 
 
