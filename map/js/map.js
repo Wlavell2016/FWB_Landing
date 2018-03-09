@@ -57,7 +57,7 @@ L.control.zoom({
 
 //******************************************************************************
 /* general variables for the map*/
-var checkclick = false;
+ checkclick = false;
 
 //******************************************************************************
 /* styles for the markers*/
@@ -449,6 +449,7 @@ container.style.align='center';
         container.onclick = function(){
             map.flyTo(center, 5.5)
             sidebar.close('#sidebar');
+            checkclick = false;
         }
 
         return container;

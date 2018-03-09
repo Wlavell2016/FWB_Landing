@@ -871,9 +871,17 @@ bottom: 10vh;
     background-position: center center;
 }
 
+
 .partners_section {
     height: 100vh;
-    margin-bottom: 10vh;
+    margin-bottom: -35vh;
+}
+
+@media(min-width:576px){
+    .partners_section {
+        height: 100vh;
+        margin-bottom: 10vh;
+    }
 }
 
 .carousel-item {
