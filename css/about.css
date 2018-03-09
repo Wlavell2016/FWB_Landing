@@ -75,6 +75,26 @@
      }
  }
 
+ @media(min-width:576px){
+     .card_leftBorder {
+         height:35vh;
+         border-left: solid  20px transparent;
+         padding: 15px;
+         background-color: #1c1c1c;
+         border-image:url("../images/objects/border3.png");
+         border-image-width: 20px;
+         border-image-slice: 25;
+         box-shadow: 10px 10px 5px black;
+         margin: 2vh 0.5vw;
+         /* border: solid white 1px; */
+         font-weight: 400;
+         font-style: normal;
+         font-size: 16.0px;
+         position:relative;
+         color:rgba(133,137,140,1.0);
+
+     }
+ }
  .intro_col {
      display:flex;
      flex-direction: column;
