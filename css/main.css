@@ -221,6 +221,9 @@ body {
 
 }
 
+.programme_topic_row p {
+        font-size: 1.5em;
+}
 .introbox {
     /* height: 100vh; */
     position: relative;
@@ -232,6 +235,29 @@ body {
     box-shadow: 10px 10px 5px black;
 }
 
+.introbox2_2 {
+    display:none;
+    position: relative;
+    border: solid  20px transparent;
+    padding: 15px;
+    border-image:url("../images/border.png");
+    border-image-width: 20px;
+    border-image-slice: 50;
+    box-shadow: 10px 10px 5px black;
+}
+
+.introbox3_2 {
+    display:none;
+    position: relative;
+    border: solid  20px transparent;
+    padding: 15px;
+    border-image:url("../images/border.png");
+    border-image-width: 20px;
+    border-image-slice: 50;
+    box-shadow: 10px 10px 5px black;
+}
+
+
 .intro_row_content {
     /* border: solid blue 2px; */
     height: 80%;
@@ -240,27 +266,7 @@ body {
     z-index: 0;
 }
 
-.intro_row_content1 p {
 
-}
-
-.intro_row_content2 p {
-
-}
-
-.intro_row_content3  p{
-}
-
-.purpose_text {
-
-}
-.vision_text {
-display: none
-}
-
-.goal_text{
-display:none;
-}
 
 @media (min-width: 992px) {
     .intro_row_content {
@@ -270,30 +276,6 @@ display:none;
         margin-left: 4vw;
         margin-right: 4vw;
         z-index: 0;
-
-    }
-}
-
-
-
-.photo2 {
-    background-image:url("../images/people/childrenpowwow1.jpg");
-    height:60vw;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    transition: 0.9s all;
-
-}
-
-@media (min-width: 992px) {
-    .photo2 {
-        background-image:url("../images/people/childrenpowwow1.jpg");
-        height:60vh;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        transition: 0.9s all;
 
     }
 }
@@ -342,13 +324,48 @@ bottom: 10vh;
     height: 15vh;
 }
 
+.photo2 {
+    background-image:url("../images/people/childrenpowwow1.jpg");
+    height:60vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .photo2 {
+        background-image:url("../images/people/childrenpowwow1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transition: 0.9s all
+
+    }
+}
+
+ .photo2_2 {
+     background-image:url("../images/top_photos/smudging.jpg");
+     height:60vh;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+ }
+
+
+.photo2_3 {
+    background-image:url("../images/people/hugging.jpg");
+    height:60vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
 .image1 {
-    background-image:url("../images/actions/dancing.jpg");)
+    background-image:url("../images/people/hugging.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 0.9s all;
-
 }
 
 .image2 {
@@ -356,8 +373,6 @@ bottom: 10vh;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 0.9s all;
-
 }
 
 .image3 {
@@ -365,8 +380,56 @@ bottom: 10vh;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 0.9s all;
 }
+
+
+.image1_2 {
+    background-image:url("../images/people/smiling_dancer.jpg");)
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2_2 {
+    background-image:url("../images/places/fire.jpg");)
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.image3_2 {
+    background-image:url("../images/people/motherdaughter1.jpg");)
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.image1_3 {
+    background-image:url("../images/people/dancing_elders.jpg");)
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2_3 {
+    background-image:url("../images/people/community.jpg");)
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.image3_3 {
+    background-image:url("../images/top_photos/stones.jpg");)
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 
 .outline {

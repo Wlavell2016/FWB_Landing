@@ -337,6 +337,23 @@ margin-top: 5vh;
 
 /* about testimonials cover page****************** */
 
+.card1 {
+display:block;
+}
+
+.card2 {
+    display:none;
+}
+
+.card3 {
+    display:none;
+}
+
+.card4 {
+    display:none;
+}
+
+
 .testimonials_section {
     height: 100vh;
     width: 100vw;
@@ -415,25 +432,7 @@ margin-top: 5vh;
     color: #7798c6;
 }
 
-.testimonial1 {
-    display: block;
-    transition: 1.5s all;
-}
 
-.testimonial2 {
-    display: none;
-    transition: 1.5s all;
-}
-
-.testimonial3 {
-    display: none;
-    transition: 1.5s all;
-}
-
-.testimonial4 {
-    display: none;
-    transition: 1.5s all;
-}
 
 .testimonial_image {
     background-image:url("../images/top_photos/feather2.jpg");
