@@ -1,6 +1,7 @@
 .sidebar {
     background-color: #1c1c1c;
   position: absolute;
+  z-index: 1;
   top: 0px;
   left:2vw;
   bottom: 0;

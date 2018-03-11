@@ -11,8 +11,10 @@
     width:100vw;
     position:relative;
     padding: 0 0;
+    z-index:0;
     /* background-color: white */
 }
+
 
 .inner2 {
     margin-left: 10vw;

@@ -21,16 +21,15 @@ a:hover {
 
  .navbar-brand img {
     transition: 0.9s all;
-    display:none;
+    /* display:none; */
     height:121px;
-    width: 111px;
+    width: 81px;
 }
 
 @media(min-width:576px){
     .navbar-brand img {
         transition: 0.9s all;
-        display:none;
-
+        /* display:none; */
     }
     .nav3 {
     background-color: #373944;
@@ -42,7 +41,7 @@ a:hover {
 @media(min-width:992px){
     .navbar-brand img {
         transition: 0.9s all;
-        display:block;
+        /* display:block; */
     }
     .nav3 {
     background-color: #373944;
@@ -92,7 +91,6 @@ height: 11vh;
 
 html,
 body {
-  /* height: 100%; */
   background-color: #333;
    transition: 0.9s all;
 }
@@ -105,13 +103,10 @@ body {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
-
-
 
 
 /*

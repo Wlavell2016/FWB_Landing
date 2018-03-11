@@ -69,8 +69,23 @@ container.forEach(function(item) {
 $('.accordion-section p').click(function(e){
     var location = $(this).text();
     var latlng = findLatLng(location, data3);
+    var y = latlng[0]
+    var x = latlng[1]
+
     map.flyTo(latlng, 10)
-    
+    if (window.matchMedia("(min-width: 992px)").matches) {
+        map.flyTo(latlng, 10)
+    } else if(window.matchMedia("(min-width: 768px)").matches) {
+        var mapoffsetY = y - -0.09
+        var mapoffsetX = x - 0.25
+        map.flyTo([mapoffsetY, mapoffsetX],10)
+    } else if (window.matchMedia("(min-width: 300px)").matches) {
+        var mapoffsetY = y - 0.14
+        var mapoffsetX = x - 0
+        map.flyTo([mapoffsetY, mapoffsetX],10)
+    } else {
+    console.log ('ok')
+    }
 });
 
 
