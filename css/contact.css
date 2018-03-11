@@ -4,8 +4,10 @@ body {
     background-image:url("../images/top_photos/drumming.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center left;
+    background-position: center center;
 }
+
+
 
 
 .contact_page_container {
