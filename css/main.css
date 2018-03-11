@@ -298,7 +298,7 @@ bottom: 10vh;
 }
 
 .photo2 {
-    background-image:url("../images/people/childrenpowwow1.jpg");
+    background-image:url("../images/top_photos/childrenpowwow1.jpg");
     height:60vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -307,7 +307,7 @@ bottom: 10vh;
 
 @media (min-width: 992px) {
     .photo2 {
-        background-image:url("../images/people/childrenpowwow1.jpg");
+        background-image:url("../images/top_photos/childrenpowwow1.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -326,7 +326,7 @@ bottom: 10vh;
 
 
 .photo2_3 {
-    background-image:url("../images/people/hugging.jpg");
+    background-image:url("../images/top_photos/hugging.jpg");
     height:60vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -335,7 +335,7 @@ bottom: 10vh;
 
 
 .image1 {
-    background-image:url("../images/people/hugging.jpg");)
+    background-image:url("../images/top_photos/dancing.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -357,14 +357,14 @@ bottom: 10vh;
 
 
 .image1_2 {
-    background-image:url("../images/people/smiling_dancer.jpg");)
+    background-image:url("../images/top_photos/smiling_dancer.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .image2_2 {
-    background-image:url("../images/places/fire.jpg");)
+    background-image:url("../images/top_photos/fire.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,7 +372,7 @@ bottom: 10vh;
 
 
 .image3_2 {
-    background-image:url("../images/people/motherdaughter1.jpg");)
+    background-image:url("../images/top_photos/motherdaughter1.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,14 +381,14 @@ bottom: 10vh;
 
 
 .image1_3 {
-    background-image:url("../images/people/dancing_elders.jpg");)
+    background-image:url("../images/top_photos/dancing_elders.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .image2_3 {
-    background-image:url("../images/people/community.jpg");)
+    background-image:url("../images/top_photos/community.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -439,7 +439,7 @@ bottom: 10vh;
 
 @media (min-width: 576px) {
     .programme_photo {
-        background-image:url("../images/places/0003.jpg");)
+        background-image:url("../images/top_photos/0003.jpg");)
         /* height: 75%; */
         background-repeat: no-repeat;
         background-size: cover;
@@ -836,7 +836,7 @@ bottom: 10vh;
     border-image-slice: 50;
     /* height: 75%; */
     /* opacity: 0; */
-    background-image:url("../images/places/stones2.jpg");)
+    background-image:url("../images/top_photos/stones2.jpg");)
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1103,74 +1103,3 @@ position: relative;
 height:20vh;
 margin-bottom: 9vh;
 }
-
-/* @media(min-width:576px){
-    .text_contact {
-        display:block;
-    }
-    .contact_page_container {
-        background-image:url("../images/top_photos/drumming.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom;
-        height: 75vh;
-        opacity: 0.9;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .cover_contact h3 {
-        font-weight: 900;
-        font-style: normal;
-        font-size:  large;
-        color:#FFF;
-    }
-    .cover_contact p {
-        font-weight: 400;
-        color:#FFF;
-        font-style: normal;
-        font-size: medium;
-    }
-    .top1 {
-        display:block;
-    }
-    .top2 {
-        display:none
-    }
-}
-
-@media(min-width:992px){
-    .contact_page_container p{
-        font-size: unset;
-    }
-    .contact_page_container {
-        background-image:url("../images/top_photos/drumming.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom;
-        height: 140vh;
-        opacity: 0.9;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .cover_contact h3 {
-        font-weight: 900;
-        font-style: normal;
-        font-size:  medium;
-        color:#FFF;
-    }
-    .cover_contact p {
-        font-weight: 400;
-        color:#FFF;
-        font-style: normal;
-        font-size: medium;
-    }
-    .top1 {
-        display:none;
-    }
-
-    .top2 {
-        display:block
-    }
-} */

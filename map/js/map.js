@@ -325,7 +325,7 @@ var fwblayer = L.geoJSON(data3, {
 
         //
         } else if (feature.properties.PartnerID === 7) {
-            var image2 = 'images/icons/newcredit.png'
+            var image2 = 'images/icons/newcredit.jpg'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(sauga)}).addTo(map)
             Sauga.addLayer(circle).addTo(map);
             All.addLayer(circle).addTo(map);
@@ -374,7 +374,7 @@ var fwblayer = L.geoJSON(data3, {
 
         //
         } else if (feature.properties.PartnerID === 14) {
-            var image2 = 'images/icons/tung_inuit.jpg'
+            var image2 = 'images/icons/tungInuit.jpg'
             var circle = L.marker(latlng, {icon: L.BeautifyIcon.icon(tung_inuit)}).addTo(map)
             Tung_inuit.addLayer(circle).addTo(map);
             All.addLayer(circle).addTo(map);
@@ -385,7 +385,7 @@ var fwblayer = L.geoJSON(data3, {
             All.addLayer(circle).addTo(map);
 
         }
-
+            globalY =
             circle.on('click', function() {
                 // console.log(marker.title)
                 if (window.matchMedia("(min-width: 992px)").matches) {

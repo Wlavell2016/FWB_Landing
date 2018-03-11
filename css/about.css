@@ -2,7 +2,7 @@
 
 
 .aboutpage_container {
-    background-image:url("../images/people/singing.jpg");
+    background-image:url("../images/top_photos/singing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -14,7 +14,7 @@
 
 @media(min-width:576px){
     .aboutpage_container {
-        background-image:url("../images/people/singing.jpg");
+        background-image:url("../images/top_photos/singing.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         /* width: 100vw; */
@@ -268,7 +268,7 @@ margin-top: 5vh;
 }
 
 .section_about_onwa .introbox{
-    background-image:url("../images/objects/recon.jpg");
+    background-image:url("../images/top_photos/recon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -284,7 +284,7 @@ margin-top: 5vh;
 
 @media(min-width:576px){
     .section_about_onwa .introbox{
-        background-image:url("../images/objects/recon.jpg");
+        background-image:url("../images/top_photos/recon.jpg");
         height:70vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -304,7 +304,7 @@ margin-top: 5vh;
 
 @media(min-width:992px){
     .section_about_onwa .introbox{
-        background-image:url("../images/objects/recon.jpg");
+        background-image:url("../images/top_photos/recon.jpg");
         height:70vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -322,7 +322,7 @@ margin-top: 5vh;
 
 
 .section_about_onwa .introbox2{
-    background-image:url("../images/objects/dress.jpg");
+    background-image:url("../images/top_photos/dress.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -339,10 +339,11 @@ margin-top: 5vh;
 
 @media(min-width:576px){
     .section_about_onwa .introbox2{
-        background-image:url("../images/objects/dress.jpg");
+        background-image:url("../images/top_photos/dress.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+        height:70vh;
         opacity:0.8;
         display:none;
         position: relative;
@@ -359,7 +360,7 @@ margin-top: 5vh;
 
 @media(min-width:992px){
     .section_about_onwa .introbox2{
-        background-image:url("../images/objects/dress.jpg");
+        background-image:url("../images/top_photos/dress.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -376,7 +377,7 @@ margin-top: 5vh;
 }
 
 .section_about_onwa .introbox3{
-    background-image:url("../images/objects/flowers.jpg");
+    background-image:url("../images/top_photos/flowers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -395,7 +396,7 @@ margin-top: 5vh;
 @media(min-width:576px){
     .section_about_onwa .introbox3{
         height:70vh;
-        background-image:url("../images/objects/flowers.jpg");
+        background-image:url("../images/top_photos/flowers.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -416,7 +417,7 @@ margin-top: 5vh;
 @media(min-width:992px){
     .section_about_onwa .introbox3{
         height:70vh;
-        background-image:url("../images/objects/flowers.jpg");
+        background-image:url("../images/top_photos/flowers.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -776,7 +777,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/actions/medicine_gathering1.jpg');
+     background-image:url('../images/top_photos/medicine_gathering1.jpg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -804,7 +805,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/people/hugging2.jpg');
+     background-image:url('../images/top_photos/hugging2.jpg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -817,7 +818,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/people/teaching.jpg');
+     background-image:url('../images/top_photos/teaching.jpg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -831,7 +832,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/people/dancing_elders.jpg');
+     background-image:url('../images/top_photos/dancing_elders.jpg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -844,7 +845,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/people/talking1.jpg');
+     background-image:url('../images/top_photos/talking1.jpg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -859,7 +860,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/people/powwow2.jpeg');
+     background-image:url('../images/top_photos/powwow2.jpeg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -872,7 +873,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/actions/medicine_gathering1.jpg');
+     background-image:url('../images/top_photos/medicine_gathering1.jpg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;

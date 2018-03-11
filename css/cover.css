@@ -23,7 +23,7 @@ a:hover {
     transition: 0.9s all;
     /* display:none; */
     height:121px;
-    width: 81px;
+    width: 111px;
 }
 
 @media(min-width:576px){
