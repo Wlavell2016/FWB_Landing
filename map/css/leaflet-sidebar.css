@@ -60,6 +60,7 @@
     padding: 0;
     list-style-type: none; }
     .sidebar-tabs > li, .sidebar-tabs > ul > li {
+    pointer-events:auto;
       width: 100%;
       height: 40px;
       color: #333;
@@ -77,8 +78,10 @@
         .sidebar-tabs > li.disabled:hover, .sidebar-tabs > ul > li.disabled:hover {
           background: transparent; }
         .sidebar-tabs > li.disabled > a, .sidebar-tabs > ul > li.disabled > a {
+            pointer-events:auto;
           cursor: default; }
       .sidebar-tabs > li > a, .sidebar-tabs > ul > li > a {
+        pointer-events:auto;
         display: block;
         width: 100%;
         height: 100%;
@@ -173,6 +176,7 @@
   text-align: center;
   cursor: pointer; }
   .sidebar-left .sidebar-close {
+      pointer-events:auto;
     right: 0; }
   .sidebar-right .sidebar-close {
     left: 0; }
@@ -192,6 +196,7 @@
 .sidebar {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65); }
   .sidebar.leaflet-touch {
+      pointer-events:none;
     box-shadow: none;
     border-right: 2px solid rgba(0, 0, 0, 0.2); }
   @media (min-width: 768px) {

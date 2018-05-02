@@ -438,7 +438,7 @@ map.addLayer(fwblayer);
     var customControl =  L.Control.extend({options: {position: 'topright'},
 
       onAdd: function (map) {
-        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control homebutton leaflet-control-custom');
 
         container.style.backgroundColor = 'white';
         container.style.backgroundImage = "url(images/home.png)";
@@ -451,7 +451,6 @@ container.style.align='center';
             sidebar.close('#sidebar');
             checkclick = false;
         }
-
         return container;
       }
     });

@@ -1,45 +1,74 @@
 $('#purpose').on("click", function(event){
-    $('#purpose1').addClass('active')
-    $('#vision1').removeClass('active')
-    $('#goal1').removeClass('active')
+    $('#purpose1').addClass('active1')
+    $('#vision1').removeClass('active1')
+    $('#goal1').removeClass('active1')
     $('.introbox').fadeIn(2000)
     $('.introbox2_2').css('display', 'none')
     $('.introbox3_2').css('display', 'none')
 })
 
  $('#vision').on("click", function(event){
-     $('#vision1').addClass('active')
-     $('#purpose1').removeClass('active')
-     $('#goal1').removeClass('active')
+     $('#vision1').addClass('active1')
+     $('#purpose1').removeClass('active1')
+     $('#goal1').removeClass('active1')
      $('.introbox2_2').fadeIn(2000)
      $('.introbox').css('display', 'none')
      $('.introbox3_2').css('display', 'none')
 })
 
 $('#goal').on("click", function(event){
-    $('#goal1').addClass('active')
-    $('#purpose1').removeClass('active')
-    $('#vision1').removeClass('active')
+    $('#goal1').addClass('active1')
+    $('#purpose1').removeClass('active1')
+    $('#vision1').removeClass('active1')
     $('.introbox3_2').fadeIn(2000)
     $('.introbox2_2').css('display', 'none')
     $('.introbox').css('display', 'none')
 })
 
+// programme
+
+$('#strat1').on("click", function(event){
+    $('#strat1').addClass('active1')
+    $('#object1').removeClass('active1')
+    $('#outcome1').removeClass('active1')
+    $('.box1').fadeIn(2000)
+    $('.box2').css('display', 'none')
+    $('.box3').css('display', 'none')
+})
+
+ $('#object1').on("click", function(event){
+     $('#object1').addClass('active1')
+     $('#outcome1').removeClass('active1')
+     $('#strat1').removeClass('active1')
+     $('.box2').fadeIn(2000)
+     $('.box1').css('display', 'none')
+     $('.box3').css('display', 'none')
+})
+
+$('#outcome1').on("click", function(event){
+    $('#outcome1').addClass('active1')
+    $('#object1').removeClass('active1')
+    $('#strat1').removeClass('active1')
+    $('.box3').fadeIn(2000)
+    $('.box1').css('display', 'none')
+    $('.box2').css('display', 'none')
+})
+
 // js for about page
 $('.text1_1').on("click", function(event){
-    $('.introbox').fadeIn(1000)
+    $('.introbox').fadeIn(1000).css('display', 'flex')
     $('.introbox3').css('display', 'none')
     $('.introbox2').css('display', 'none')
 })
 
  $('.text2_2').on("click", function(event){
-     $('.introbox2').fadeIn(1000)
+     $('.introbox2').fadeIn(1000).css('display', 'flex')
      $('.introbox3').css('display', 'none')
      $('.introbox').css('display', 'none')
 })
 
 $('.text3_3').on("click", function(event){
-    $('.introbox3').fadeIn(1000)
+    $('.introbox3').fadeIn(1000).css('display', 'flex')
     $('.introbox').css('display', 'none')
     $('.introbox2').css('display', 'none')
 })

@@ -35,6 +35,11 @@ body {
 }
 
 
+.contact_container1 .main2 .text {
+    text-align: center;
+    height:30vh;
+}
+
 
 /* ***************** */
 .form {
@@ -133,7 +138,7 @@ body {
     flex-direction: row;
     align-items: center;
     position: relative;
-    bottom: -8.5vh;
+    bottom: -4rem;
     width:100%;
     z-index: 1;
 }
@@ -226,11 +231,6 @@ body {
     color:#FFF;
 }
 
-.cover_contact p {
-    font-weight: 400;
-    color:#FFF;
-    font-size: xx-small;
-}
 
 .cover_contact .nav-link{
     padding-top: 0;
@@ -258,7 +258,7 @@ body {
     justify-content: center;
 }
 
-.main2 {
+medium {
 display:flex;
 position: relative;
 height:20vh;
