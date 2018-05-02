@@ -8,6 +8,9 @@ body {
 }
 
 
+.section-contact-form h3{
+    color:#fff
+}
 
 
 .contact_page_container {
@@ -29,6 +32,8 @@ body {
     align-items: center;
     justify-content: flex-end;
 }
+
+
 
 .contact_container2 {
     margin-bottom: 0vh;
@@ -352,4 +357,20 @@ margin-bottom: 9vh;
 @media(min-width:992px){
 .section-contact-form {
         margin-bottom:0vh;
+}
+
+.submit_form {
+    background-color: #adabab;
+}
+
+.form_row {
+    display: flex;
+}
+
+.form_submitted {
+    margin-top: 10vh;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

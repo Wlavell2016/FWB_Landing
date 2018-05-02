@@ -126,6 +126,11 @@ $('.navbar-toggler-icon').on("click", function(event){
     $('#navbarNavDropdown').css('background-color','#373944');
 });
 
+$('.form').submit(function() {
+    $('.form_row').css('display', 'none');
+    $('.form_submitted').css('display', 'flex');
+});
+
 // for updating nav bar color
 var viewportHeight = $(window).height();
 $(document).ready(function() {
