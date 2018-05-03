@@ -157,7 +157,7 @@ body {
 }
 
 .homepage_container {
-        background-image:url("../images/dancing2.jpg");
+        background-image:url("../images/dancing2.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -193,7 +193,7 @@ body {
 
 @media (min-width: 992px) {
     .homepage_container {
-        background-image:url("../images/dancing2.jpg");
+        background-image:url("../images/dancing2.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
@@ -322,35 +322,35 @@ body {
 }
 
 .image1 {
-    background-image:url("../images/top_photos/dancing.jpg");
+    background-image:url("../images/top_photos/dancing.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .image3 {
-    background-image:url("../images/top_photos/smilingBaby.jpg");
+    background-image:url("../images/top_photos/smilingBaby.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .image1_2 {
-    background-image:url("../images/top_photos/smiling_dancer.jpg");
+    background-image:url("../images/top_photos/smiling_dancer.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .image2_2 {
-    background-image:url("../images/top_photos/fire.jpg");
+    background-image:url("../images/top_photos/fire.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .photo2_2 {
-    background-image:url("../images/top_photos/smudging.jpg");
+    background-image:url("../images/top_photos/smudging.jpeg");
     height:60vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -358,7 +358,7 @@ body {
 }
 
 .photo2_3 {
-   background-image:url("../images/top_photos/hugging.jpg");
+   background-image:url("../images/top_photos/hugging.jpeg");
    height:60vh;
    background-repeat: no-repeat;
    background-position: center center;
@@ -368,7 +368,7 @@ body {
 }
 
 .image3_2 {
-    background-image:url("../images/top_photos/community.jpg");
+    background-image:url("../images/top_photos/community.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -376,7 +376,7 @@ body {
 }
 
 .image1_3 {
-    background-image:url("../images/top_photos/dancing_elders.jpg");
+    background-image:url("../images/top_photos/dancing_elders.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -384,7 +384,7 @@ body {
 }
 
 .image2_3 {
-    background-image:url("../images/top_photos/motherdaughter1.jpg");
+    background-image:url("../images/top_photos/motherdaughter1.jpeg");
     background-position: center center;
     height: 60vh;
     margin-left: 3vw;
@@ -396,7 +396,7 @@ body {
 
 
 .image3_3 {
-    background-image:url("../images/top_photos/stones.jpg");
+    background-image:url("../images/top_photos/stones.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -449,7 +449,7 @@ body {
     }
 
     .image2_3 {
-        background-image:url("../images/top_photos/motherdaughter1.jpg");
+        background-image:url("../images/top_photos/motherdaughter1.jpeg");
         background-position: center center;
         height: 60vh;
         margin-left: 3vw;
@@ -459,7 +459,7 @@ body {
         display: block;
     }
         .photo2_3 {
-           background-image:url("../images/top_photos/hugging.jpg");
+           background-image:url("../images/top_photos/hugging.jpeg");
            height:60vh;
            background-repeat: no-repeat;
            background-position: center center;
@@ -526,7 +526,7 @@ body {
         height:75vh;
     }
     .image2_3 {
-        background-image:url("../images/top_photos/motherdaughter1.jpg");
+        background-image:url("../images/top_photos/motherdaughter1.jpeg");
         background-position: center center;
         height: 60vh;
         margin-left: 3vw;
@@ -536,7 +536,7 @@ body {
         display: block;
     }
     .photo2_3 {
-       background-image:url("../images/top_photos/hugging.jpg");
+       background-image:url("../images/top_photos/hugging.jpeg");
        height:60vh;
        background-repeat: no-repeat;
        background-position: center center;
@@ -616,7 +616,7 @@ body {
 
     }
     .programme_photo {
-        background-image:url("../images/objects/drumingoutside.jpg");
+        background-image:url("../images/objects/drumingoutside.jpeg");
         height:55vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -624,7 +624,7 @@ body {
     }
 
     .outcome_photo {
-         background-image:url("../images/top_photos/smilingBaby.jpg");
+         background-image:url("../images/top_photos/smilingBaby.jpeg");
         /* height: 75%; */
         background-repeat: no-repeat;
         background-size: cover;
@@ -633,7 +633,7 @@ body {
         display:block;
     }
     .mobile_section_services .programme_photo {
-            background-image:url("../images/top_photos/sweetgrass.jpg");
+            background-image:url("../images/top_photos/sweetgrass.jpeg");
             /* height: 75%; */
             background-repeat: no-repeat;
             background-size: cover;
@@ -645,7 +645,7 @@ body {
 
 @media (min-width: 992px) {
     .programme_photo {
-        background-image:url("../images/objects/drumingoutside.jpg");
+        background-image:url("../images/objects/drumingoutside.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         display:flex;
@@ -757,7 +757,7 @@ body {
 
 
 .services_image {
-    background-image:url("../images/top_photos/borealis.jpg");
+    background-image:url("../images/top_photos/borealis.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -771,7 +771,7 @@ body {
 
 @media (min-width: 992px) {
     .services_image {
-        background-image:url("../images/top_photos/borealis.jpg");
+        background-image:url("../images/top_photos/borealis.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -924,7 +924,7 @@ body {
         border-image:url("../images/border.png");
         border-image-width: 20px;
         border-image-slice: 50;
-        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/borealis.jpg");
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/borealis.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -958,7 +958,7 @@ body {
 }
 
 .implementing_photo {
-    background-image:url("../images/top_photos/pouch.jpg");
+    background-image:url("../images/top_photos/pouch.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -967,7 +967,7 @@ body {
 
 @media (min-width: 576px) {
     .implementing_photo {
-        background-image:url("../images/top_photos/pouch.jpg");
+        background-image:url("../images/top_photos/pouch.jpeg");
         background-position: center center;
         height: 90vh;
         background-repeat: no-repeat;
@@ -978,7 +978,7 @@ body {
 
 @media (min-width: 992px) {
     .implementing_photo {
-        background-image:url("../images/top_photos/pouch.jpg");
+        background-image:url("../images/top_photos/pouch.jpeg");
         background-position: center center;
         height: 100%;
         background-repeat: no-repeat;
@@ -998,7 +998,7 @@ body {
     border-image:url("../images/border.png");
     border-image-width: 20px;
     border-image-slice: 50;
-    background-image:url("../images/top_photos/stones2.jpg");
+    background-image:url("../images/top_photos/stones2.jpeg");
     height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
