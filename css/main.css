@@ -587,7 +587,7 @@ body {
     display:none;
 }
 .programme_photo {
-    background-image:url("../images/objects/drumingoutside.jpg");
+    background-image:url("../images/objects/drumingoutside.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -595,7 +595,7 @@ body {
 }
 
 .outcome_photo {
-     background-image:url("../images/top_photos/smilingBaby.jpg");
+     background-image:url("../images/top_photos/smilingBaby.jpeg");
     /* height: 75%; */
     background-repeat: no-repeat;
     background-size: cover;
