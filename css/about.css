@@ -12,7 +12,7 @@
 
 
 .aboutpage_container {
-    background-image:url("../images/top_photos/singing.jpg");
+    background-image:url("../images/top_photos/singing.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -75,7 +75,7 @@
         font-size: 4rem;
     }
     .aboutpage_container {
-        background-image:url("../images/top_photos/singing.jpg");
+        background-image:url("../images/top_photos/singing.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         /* width: 100vw; */
@@ -180,7 +180,7 @@
 }
 
 .section_about_onwa .introbox{
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/recon.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/recon.jpeg");
     background-size: cover;
     background-position: center center;
     opacity:0.8;
@@ -196,7 +196,7 @@
 }
 
 .section_about_onwa .introbox2{
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/dress.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/dress.jpeg");
     background-size: cover;
     background-position: center center;
     opacity:0.8;
@@ -211,7 +211,7 @@
 }
 
 .section_about_onwa .introbox3{
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/flowers.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/flowers.jpeg");
     background-size: cover;
     background-position: center center;
     opacity:0.8;
@@ -232,7 +232,7 @@
         align-items: flex-end;
     }
     .section_about_onwa .introbox{
-        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/recon.jpg");
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/recon.jpeg");
         background-size: cover;
         background-position: center center;
         opacity:0.8;
@@ -246,7 +246,7 @@
         height:auto;
     }
     .section_about_onwa .introbox2{
-        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/dress.jpg");
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/dress.jpeg");
         background-size: cover;
         background-position: center center;
         height:95vh;
@@ -261,7 +261,7 @@
         box-shadow: 10px 10px 5px black;
     }
     .section_about_onwa .introbox3{
-        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/flowers.jpg");
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/flowers.jpeg");
         background-size: cover;
         background-position: center center;
         opacity:0.8;
@@ -291,7 +291,7 @@
         margin-bottom: -15vh;
     }
     .section_about_onwa .introbox{
-        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/recon.jpg");
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/recon.jpeg");
         background-size: cover;
         background-position: center center;
         opacity:0.8;
@@ -306,7 +306,7 @@
         height:90vh;
     }
     .section_about_onwa .introbox2{
-        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/dress.jpg");
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/top_photos/dress.jpeg");
         background-size: cover;
         background-position: center center;
         opacity:0.8;
@@ -325,7 +325,7 @@
 
     }
     .section_about_onwa .introbox3{
-        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/top_photos/flowers.jpg");
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/top_photos/flowers.jpeg");
         background-size: cover;
         background-position: center center;
         opacity:0.8;
@@ -544,7 +544,7 @@ display:block;
 
 
 .testimonial_image {
-    background-image:url("../images/top_photos/feather2.jpg");
+    background-image:url("../images/top_photos/feather2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -559,7 +559,7 @@ display:block;
 
 @media(min-width:576px;) {
     .testimonial_image {
-    background-image:url("../images/top_photos/feather2.jpg");
+    background-image:url("../images/top_photos/feather2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -780,7 +780,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/top_photos/medicine_gathering1.jpg');
+     background-image:url('../images/top_photos/medicine_gathering1.jpeg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -793,7 +793,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/top_photos/drumming_elder.jpg');
+     background-image:url('../images/top_photos/drumming_elder.jpeg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -808,7 +808,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/top_photos/hugging2.jpg');
+     background-image:url('../images/top_photos/hugging2.jpeg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -821,7 +821,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/top_photos/teaching.jpg');
+     background-image:url('../images/top_photos/teaching.jpeg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -835,7 +835,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/top_photos/dancing_elders.jpg');
+     background-image:url('../images/top_photos/dancing_elders.jpeg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -848,7 +848,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/top_photos/talking1.jpg');
+     background-image:url('../images/top_photos/talking1.jpeg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -876,7 +876,7 @@ display:block;
     width: 45vw;
     margin: 0;
     padding: 0;
-     background-image:url('../images/top_photos/medicine_gathering1.jpg');
+     background-image:url('../images/top_photos/medicine_gathering1.jpeg');
      /* height: 75%; */
      background-repeat: no-repeat;
      background-size: cover;
@@ -1109,7 +1109,7 @@ margin-bottom: 9vh;
         display:block;
     }
     .contact_page_container {
-        background-image:url("../images/top_photos/drumming.jpg");
+        background-image:url("../images/top_photos/drumming.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
@@ -1147,7 +1147,7 @@ margin-bottom: 9vh;
         font-size: unset;
     }
     .contact_page_container {
-        background-image:url("../images/top_photos/drumming.jpg");
+        background-image:url("../images/top_photos/drumming.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
